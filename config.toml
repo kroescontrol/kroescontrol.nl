@@ -102,7 +102,7 @@ email = "info@kroescontrol.nl"
 # contact form action
 contact_form_action = "https://formspree.io/xvoblnaa" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "UA-163779697-1" # your id
+google_analitycs_id = "UA-163824714-1" # your id
 # searchbar
 search = false
 
