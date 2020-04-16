@@ -31,7 +31,7 @@ git push -q origin master && echo "$(tput setaf 2)Everything up-to-date$(tput sg
 ###
 
 git clone git@github.com:kroescontrol/showcase.kroescontrol.nl.git --branch gh-pages --single-branch public
-hugo --baseURL https://showcase.kroescontrol.nl
+hugo --baseURL http://showcase.kroescontrol.nl
 cd public
 echo "showcase.kroescontrol.nl" > CNAME
 git add --all
