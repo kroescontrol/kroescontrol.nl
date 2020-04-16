@@ -111,7 +111,7 @@ search = false
 enable = false
 preloader = "/images/loading.gif" # use jpg, png, svg or gif format.
 
-# Navigation button
+# Navigation button s 
 [params.navigation_button]
 enable = false
 label = "LinkedIn"
