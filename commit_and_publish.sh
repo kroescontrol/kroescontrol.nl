@@ -34,7 +34,7 @@ git clone git@github.com:kroescontrol/showcase.kroescontrol.nl.git --branch gh-p
 hugo --baseURL https://showcase.kroescontrol.nl
 cd public
 git add --all
-git commit -m "[SHOWCASE] Publishing to gh-pages"
+git commit -m "[SHOWCASE] Publishing to gh-pages" || true
 git push -q origin gh-pages && echo "$(tput setaf 2)Everything up-to-date$(tput sgr0)" || echo echo "$(tput setaf 1) Failed!$(tput sgr0)"
 cd ..
 rm -Rf public
