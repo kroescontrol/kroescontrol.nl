@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://kroescontrol.nl"
+baseURL = "http://kroescontrol.nl"
 title = "Kroescontrol | IT & More"
 theme = "redlab-hugo"
 # post pagination
