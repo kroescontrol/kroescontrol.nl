@@ -1,0 +1,74 @@
+- id: apply_now
+  translation: Solliciteer nu
+  
+- id: job_details
+  translation: Vacaturedetails
+
+- id: location
+  translation: Locatie
+
+- id: job_category
+  translation: Categorie
+
+- id: job_type
+  translation: Functie
+
+- id: posted_date
+  translation: Datum
+
+- id: featured_jobs
+  translation: Uitgelichte vacatures
+
+- id: categories
+  translation: Categorieën
+
+- id: latest_article
+  translation: Recent artikel
+
+- id: tags
+  translation: Tags
+
+- id: read_more
+  translation: Lees meer
+
+- id: posted_by
+  translation: Gepost door
+
+- id: keep_in_touch
+  translation: Blijf in contact
+
+- id: address
+  translation: Adres
+
+- id: email
+  translation: Email
+
+- id: mobile
+  translation: Mobiel
+
+- id: client_slider_title
+  translation: Onze klanten
+
+- id: about_us
+  translation: Over Kroescontrol
+
+- id: our_company
+  translation: Kroescontrol
+
+- id: contact_us
+  translation: Kom in contact
+
+- id: connect_with_us
+  translation: Social media
+
+- id: search_placeholder
+  translation: Zoeken
+
+- id: our_works
+  translation: Ons werk
+
+- id: know_more
+  translation: Meer weten
+
+- id: create_project
+  translation: Wil jij projecten als deze helpen verwezenlijken?

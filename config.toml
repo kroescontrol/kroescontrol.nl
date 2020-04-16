@@ -1,0 +1,186 @@
+######################## default configuration ####################
+baseURL = "http://kroescontrol.nl"
+title = "Kroescontrol | IT & More"
+theme = "redlab-hugo"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "redlab" # get your shortname form here : https://disqus.com
+
+# language
+
+# engels aan of juist uitzetten;
+#disableLanguages = ["en"] # disable language from here
+#disableLanguages = []     # enable all
+disableLanguages = ["en"]
+
+# set default language
+defaultContentLanguage = "nl"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/match-height/jquery.matchHeight-min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific.popup.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+############################## navigation ###############################
+# main menu
+[[menu.main]]
+name = "Over ons"
+URL = "about"
+weight = 1
+
+[[menu.main]]
+name = "Service & Diensten"
+URL = "portfolio"
+weight = 2
+
+[[menu.main]]
+  name = "Werken bij"
+  URL = "career"
+  weight = 3
+  
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 4
+
+# footer menu
+[[menu.footer]]
+name = "Privacy Policy"
+URL = "https://docs.google.com/document/d/11uFOgE6UmMAwaz97sSRBZzEEQ5R0L7YjoJtmzuJc6ts/edit?usp=sharing"
+weight = 1
+
+#################### default parameters ################################
+[params]
+#logo = "images/logo_wit_achter_22_300.png"
+#logo = "images/logo_wit_achter_22_500.png"
+#logo = "images/logo_wit_achter_22_800.png"
+#logo = "images/logo_wit_achter_22.png"
+logo = "images/logo12.png"
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Kroescontrol"
+# contact info
+address = "Zonnehorst 5, 7207BT Zutphen"
+mobile = "+31634116494"
+email = "info@kroescontrol.nl"
+# contact form action
+contact_form_action = "https://formspree.io/xvoblnaa" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# search
+search = false
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "/images/loading.gif" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "LinkedIn"
+link = "https://www.linkedin.com/company/kroescontrol"
+
+# google map
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+
+###################### Clients logo slider ###############################
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-1.png"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-2.png"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-3.png"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-4.png"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-5.png"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-1.png"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-2.png"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-3.png"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-4.png"
+
+[[params.clients_logo]]
+logo = "images/clients-logo/clients-logo-5.png"
+
+############################# social icon #################################
+# themify icon pack : https://themify.me/themify-icons
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.linkedin.com/company/kroescontrol"
+
+
+
+################################### English language #####################################
+[Languages.nl]
+languageName = "NL"
+languageCode = "nl-nl"
+contentDir = "content/dutch"
+weight = 1
+home = "Home"
+# footer content
+footer_content = "Pixels, passie & plezier. Kroescontrol in 3 woorden!"
+
+################################### English language #####################################
+[Languages.en]
+languageName = "EN"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 2
+home = "Home"
+# footer content
+footer_content = "EN Footer"
