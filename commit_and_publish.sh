@@ -32,6 +32,14 @@ git push -q origin master && echo "$(tput setaf 2)Everything up-to-date$(tput sg
 set -x
 git clone git@github.com:kroescontrol/showcase.kroescontrol.nl.git --branch gh-pages --single-branch public
 hugo --baseURL https://showcase.kroescontrol.nl
+cd public
+git add --all
+git commit -m "Publishing to gh-pages"
+git push -q origin gh-pages && echo "$(tput setaf 2)Everything up-to-date$(tput sgr0)" || echo echo "$(tput setaf 1) Failed!$(tput sgr0)"
+cd ..
+rm -Rf public
+
+echo "FINISHED showcase deploy"
 exit 99
 
 ###
