@@ -40,7 +40,8 @@ cd ..
 rm -Rf public
 
 echo "[SHOWCASE] Finished publishing to gh-pages"
-exit 99
+
+sleep 10
 
 ###
 ### push gh-pages LIVE WWW
