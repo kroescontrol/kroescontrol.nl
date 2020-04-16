@@ -18,46 +18,43 @@ rm -rf .git/worktrees/public/
 git add --all && git commit -m "quickcommits" || git status -s
 
 sleep 1
-echo -n "[LIVE] Pulling latest ... "
+echo -n "[master] Pulling latest ... "
 git pull -q --rebase
 
 git status
 
-echo -n "[LIVE] Pushing to github ... "
+echo -n "[master] Pushing to github ... "
 git push -q origin master && echo "$(tput setaf 2)Everything up-to-date$(tput sgr0)" || echo echo "$(tput setaf 1) Failed!$(tput sgr0)"
 
 ###
 ### push to gh-pages showcase
 ###
 
-git clone git@github.com:kroescontrol/showcase.kroescontrol.nl.git --branch gh-pages --single-branch public
-hugo --baseURL http://showcase.kroescontrol.nl
-cd public
-echo "showcase.kroescontrol.nl" > CNAME
-git add --all
-git commit -m "[SHOWCASE] Publishing to gh-pages" || true
-git push -q origin gh-pages && echo "$(tput setaf 2)Everything up-to-date$(tput sgr0)" || echo echo "$(tput setaf 1) Failed!$(tput sgr0)"
-cd ..
-rm -Rf public
-
-echo "[SHOWCASE] Finished publishing to gh-pages"
-
-sleep 10
+#git clone git@github.com:kroescontrol/showcase.kroescontrol.nl.git --branch gh-pages --single-branch public
+#hugo --baseURL http://showcase.kroescontrol.nl
+#cd public
+#echo "showcase.kroescontrol.nl" > CNAME
+#git add --all
+#git commit -m "[showcase] Publishing to gh-pages" || true
+#git push -q origin gh-pages && echo "$(tput setaf 2)Everything up-to-date$(tput sgr0)" || echo echo "$(tput setaf 1) Failed!$(tput sgr0)"
+#cd ..
+#rm -Rf public
+#echo "[showcase] Finished publishing to gh-pages"
 
 ###
-### push gh-pages LIVE WWW
+### push gh-pages
 ###
 
-echo "[LIVE] Checking out gh-pages branch into public"
+echo "[www] Checking out gh-pages branch into public"
 git worktree add -B gh-pages public origin/gh-pages
 
-echo "[LIVE] Generating site"
+echo "[www] Generating site"
 hugo
 
-echo "[LIVE] Updating gh-pages branch"
+echo "[www] Updating gh-pages branch"
 cd public 
 git add --all
-git commit -m "[LIVE] Publishing to gh-pages" || true
+git commit -m "[www] Publishing to gh-pages" || true
 
-echo -n "[LIVE] Pushing to github gh-pages ... "
+echo -n "[www] Pushing to github gh-pages ... "
 git push -q origin gh-pages && echo "$(tput setaf 2)Everything up-to-date$(tput sgr0)" || echo echo "$(tput setaf 1) Failed!$(tput sgr0)"
