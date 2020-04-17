@@ -5,8 +5,6 @@ draft: false
 bg_image: "images/backgrounds/about-page.jpg"
 # about image
 image: "images/about/about2.jpg"
-# meta description
-description : "this is meta description"
 ---
 
 ## Over ons.
