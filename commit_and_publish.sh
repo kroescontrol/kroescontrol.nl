@@ -34,6 +34,8 @@ git push -q origin master && echo "$(tput setaf 2)Everything up-to-date$(tput sg
 #hugo --baseURL http://showcase.kroescontrol.nl
 #cd public
 #echo "showcase.kroescontrol.nl" > CNAME
+#echo "User-agent: *" > robots.txt
+#echo "Disallow: /" >> robots.txt
 #git add --all
 #git commit -m "[showcase] Publishing to gh-pages" || true
 #git push -q origin gh-pages && echo "$(tput setaf 2)Everything up-to-date$(tput sgr0)" || echo echo "$(tput setaf 1) Failed!$(tput sgr0)"
