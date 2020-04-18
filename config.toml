@@ -7,7 +7,9 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "redlab" # get your shortname form here : https://disqus.com
+disqusShortname = "kroescontrol" # get your shortname form here : https://disqus.com
+
+enableRobotsTXT = true
 
 # language
 
@@ -53,8 +55,8 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-[[params.plugins.js]]
-link = "plugins/google-map/gmap.js"
+#[[params.plugins.js]]
+#link = "plugins/google-map/gmap.js"
 
 ############################## navigation ###############################
 # main menu
@@ -185,3 +187,7 @@ weight = 2
 home = "Home"
 # footer content
 footer_content = "EN Footer"
+
+[sitemap]
+ChangeFreq = "daily"
+Priority = "1"
