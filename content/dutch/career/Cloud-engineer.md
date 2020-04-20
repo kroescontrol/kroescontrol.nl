@@ -5,7 +5,6 @@ date: 2020-04-14T09:51:57+06:00
 bg_image: "images/backgrounds/about2.jpg"
 # meta description
 description : "Op zoek naar een nieuwe IT baan? Bekijk de vacature Cloud engineer van Kroescontrol. Bekijk welke vacatures er open staan en solliciteer direct!"
-keywords : "], Cloud engineer, DevOps engineer, Linux engineer, devops, cloud, linux, engineer, vacature, solliciteer, nederland, gelderland, apeldoorn, deventer, zutphen, ["
 # company logo
 image : "" # if you have company logo, give this logo here
 # location

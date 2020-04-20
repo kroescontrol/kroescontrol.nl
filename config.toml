@@ -96,7 +96,6 @@ logo = "images/logo12.png"
 home = "Home"
 # Meta data
 description = "Kroescontrol is hét adres voor ervaren en professionele cloud engineers."
-keywords = "Infrastructure automation, Cloud engineering, Linux, Cloud-native"
 author = "Kroescontrol"
 # contact info
 address = "Zonnehorst 5, 7207BT Zutphen"
