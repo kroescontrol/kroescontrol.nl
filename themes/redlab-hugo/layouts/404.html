@@ -10,26 +10,23 @@
     <div class="container">
       <div class="row">
         <div class="col-md-90 mx-auto text-center">
-          <h1 class="text-white mb-5 text-capitalize">{{ .title | markdownify }}</h1>
-          <p class="text-light mb-4 mx-lg-5 px-lg-5 content">{{ .content | markdownify }}</p>
-          {{ if .button_solid.enable }}
-          {{ with .button_solid }}
-          <a href="{{ .link | absLangURL }}" class="btn btn-primary m-2">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
-
-          {{ if .button_outline.enable }}
-          {{ with .button_outline }}
-          <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary m-2">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
-
-          {{ if .button_test.enable }}
-          {{ with .button_test }}
-          <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary m-2">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
-
+          <!-- Tijdelijke oplossing #1-->
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h1 class="text-white mb-5 text-capitalize">Oeps...</h1>
+          <h4 class="text-light mb-4 mx-lg-5 px-lg-5 content">De pagina die je zoekt bestaat helaas niet</h4>
+          <!-- Tijdelijke oplossing #2-->
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
         </div>
       </div>
     </div>
@@ -37,7 +34,6 @@
   {{ end }}
 </section>
 <!-- /hero area -->
-
 <!-- cta -->
 {{ if $data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
@@ -48,163 +44,5 @@
 {{ partial "cta2.html" . }}
 {{ end }}
 
-<!-- about -->
-{{ if $data.homepage.about.enable }}
-{{ with $data.homepage.about }}
-<section class="section bg-secondary-white">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 mb-4 mb-md-0 pr-lg-5">
-        <img src="{{ .image | absURL }}" alt="about" class="img-fluid">
-      </div>
-      <div class="col-md-6 pl-lg-4">
-        <div class="content mb-4">{{ .content | markdownify }}</div>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
-{{end}}
-{{end}}
-<!-- /about -->
-
-<!-- testimonial -->
-{{ if $data.homepage.testimonial.enable }}
-{{ with $data.homepage.testimonial }}
-<section class="section bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-    </div>
-    <div class="row">
-      {{ range .testimonial_item }}
-      <div class="col-lg-4 col-md-6">
-        <!-- Testimonial -->
-        <div class="testimonial-item">
-          <!-- Given Comment -->
-          <div class="comment match-height content">
-            {{ .content | markdownify }}
-          </div>
-          <div class="person">
-            <div class="media">
-              <!-- Person Image -->
-              <img src="{{ .image | absURL }}" alt="{{ .name }}">
-              <div class="media-body">
-                <h5>{{ .name | markdownify }}</h5>
-                <p class="mb-0">{{ .designation | markdownify }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /testimonial -->
-
-{{ if $data.homepage.stukje.enable }}
-<!-- testen van hugo -->
-
-st range sections
-{{ range .Site.Sections }}
-<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-{{ end }}
-en range sections
-
-<!-- stukje is de inhoud van rendering 'content/dutch/_index.md' -->
-<section>
-  <!-- this section is populated from content/_index.md -->
-
-  <article>
-  {{.Content}}
-  </article>
-
-  <footer>
-  <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
-  {{ range first 10 .Pages }}
-      {{ .Render "summary"}}
-  {{ end }}
-  </footer>
-</section>
-{{ end }}
-
-
-
-{{ if $data.homepage.showportfoliohomepage.enable }}
-<!-- portfolio items -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ i18n "our_works"}}</h2>
-      </div>
-
-      <!-- this section is populated by pulling posts from the site -->
-      {{ range (where .Site.Pages "Section" "portfolio") }} 
-      {{ if in .Params.tags "homepage" }}
-
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card rounded-0 text-center hover-bg-secondary">
-          {{ with .Params.Image }}
-          <img src="{{ .| absURL }}" class="img-fluid align-self-center w-auto pt-4">
-          {{ end }}
-          <div class="card-body">
-            <h4 class="card-title"><a href="{{.Permalink}}" >{{ .Title | markdownify }}</a></h4>
-            <p class="card-text"><a href="{{.Permalink}}" >{{ .Summary }}</a></p>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-{{ end }}
-
-
-</div>
-</div>
-</section>
-
-
-
-<!-- service -->
-{{ if $data.homepage.service.enable }}
-{{ with $data.homepage.service }}
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-      {{ range .service_item }}
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card rounded-0 text-center hover-bg-secondary">
-          <div class="card-body p-4">
-            <i class="icon-rounded bg-primary text-white {{ .icon }} mb-4"></i>
-            <h4 class="card-title">{{ .title | markdownify }}</h4>
-            <P class="card-text content">{{ .content | markdownify }}</P>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /service -->
-
-<!-- clients -->
-{{ if $data.homepage.clients_logo.enable }}
-{{ partial "clients-logo-slider.html" . }}
-{{ end }}
-<!-- /clients -->
 
 {{ end }}
