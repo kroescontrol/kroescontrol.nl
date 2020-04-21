@@ -5,13 +5,9 @@
 <section class="section">
   <div class="container">
     <div class="row justify-content-between">
-      {{ if .Site.Params.map.enable }}
-      <div class="col-lg-7 mobile-height mb-5 mb-lg-0" id="map_canvas" 
-      data-latitude="{{ .Site.Params.map.map_latitude }}"
-      data-longitude="{{ .Site.Params.map.map_longitude }}"
-      data-marker="{{ .Site.Params.map.map_marker | absURL }}"
-      data-marker-name="{{ .Site.Title }}"></div>
-      {{ end }}
+      <div class="col-lg-7 mobile-height mb-5 mb-lg-0" id="map_canvas">
+        {{ partial "map-container.html" . }}
+      </div>
       <div class="col-lg-4">
         <div class="p-5 bg-secondary">
           <h3 class="text-white border-bottom pb-4 mb-5">{{i18n "keep_in_touch"}}</h3>

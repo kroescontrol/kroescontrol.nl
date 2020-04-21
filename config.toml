@@ -127,6 +127,16 @@ enable = false
 #map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 
+#Open Street Maps
+  [params.geo]
+  enable = true
+  title = "Kroescontrol, Zutphen"
+  width = "100%"
+  height = 400.0
+  pre_embed = "https://www.openstreetmap.org/export/embed.html?"
+  embed = "bbox=9.363741874694826%2C51.97525849656705%2C9.38659429550171%2C51.99197609916384&amp;layer=mapnik&amp;"
+  map_big = "mlat=51.9836&amp;mlon=9.3752#map=16/51.9836/9.3752"
+  map_big_text = "Grotere kaart"
 
 ###################### Clients logo slider ###############################
 [[params.clients_logo]]
