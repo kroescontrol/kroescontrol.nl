@@ -6,9 +6,9 @@ image: "images/portfolio/kroescontrol-trainingen.jpg"
 # page title background image
 bg_image: "images/portfolio/kroescontrol-trainingen.jpg"
 # meta description
-description : "Trainingen door Kroescontrol"
+description : "Uitgebreid aanbod maatwerk trainingen door Serge Kroes Kroescontrol"
 # sidebar project details
-about_project: "Ben jij een ervaren IT'er en lijkt het je leuk om kennis te gaan delen met anderen?"
+about_project: "Trainingen die in samenwerking met onze opdrachtgevers bedrijfsspecifiek worden gemaakt aan de hand van uw eigen projectvoorbeelden."
 tags: homepage
 ---
 

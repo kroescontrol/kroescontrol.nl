@@ -57,16 +57,13 @@ about:
   # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
   content : "
 
-  ## Kroescontrol denkt met u mee!
+  ## Maatwerk trainingen!
 
- Kroescontrol is een professionele dienstverlener binnen IT. Kernwoorden binnen de dagelijkse werkzaamheden zijn Linux, Open Source, DevOps & Cloud infrastructure. 
- 
-
-Wij denken met u mee op elk niveau van uw IT-infrastructuur. Vanwege de passie voor techniek, ervaring en unieke “automatiserings mindset” gebeurt dit ook nog eens duurzaam. Scroll naar onderen voor een indruk van de diensten waarmee wij u van dienst kunnen zijn."
+  Wij bieden op maat gemaakte trainingen aan over een scala aan onderwerpen. Onze trainingen worden gebruikt door zowel middelgrote als gevestigde (inter)nationale bedrijven."
   button:
-    enable : true
-    label : "Leer ons kennen"
-    link : "about"
+    enable : false
+    label : "Lees meer"
+    link : "portfolio/trainingen"
 
 ################################## about DUO ################################
 aboutduo:
@@ -82,7 +79,7 @@ aboutduo:
 
 Wij denken met u mee op elk niveau van uw IT-infrastructuur. Vanwege de passie voor techniek, ervaring en unieke “automatiserings mindset” gebeurt dit ook nog eens duurzaam. Scroll naar onderen voor een indruk van de diensten waarmee wij u van dienst kunnen zijn."
   button:
-    enable : true
+    enable : false
     label : "Leer ons kennen"
     link : "about"
 
