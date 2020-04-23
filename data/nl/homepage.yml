@@ -7,13 +7,13 @@ banner:
 
   # button primary
   button_solid:
-    enable : false
+    enable : true
     label : "Over ons"
     link : "about"
 
   # button outline
   button_outline:
-    enable : true
+    enable : false
     label : "Over ons"
     link : "about"
 
@@ -42,7 +42,7 @@ cta:
 
 # ipv cta op homepage wordt cta2 alleen gebruikt op de homepage, onder de hero images
 cta2:
-  enable : true
+  enable : false
   title : "The future starts today, not tomorrow. Kom hem verwezenlijken!"
   button:
     enable : true
@@ -57,18 +57,37 @@ about:
   # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
   content : "
 
-  ## Kroescontrol denkt graag met u mee!
+  ## Kroescontrol denkt met u mee!
 
  Kroescontrol is een professionele dienstverlener binnen IT. Kernwoorden binnen de dagelijkse werkzaamheden zijn Linux, Open Source, DevOps & Cloud infrastructure. 
  
 
-Wij denken met u mee op elk niveau van uw IT-infrastructuur. Vanwege de passie voor techniek, ervaring en unieke “automatiserings mindset” gebeurt dit ook nog eens duurzaam. Scroll naar onderen voor een indruk van de diensten waarmee wij u van dienst kunnen zijn.
-
-  "
+Wij denken met u mee op elk niveau van uw IT-infrastructuur. Vanwege de passie voor techniek, ervaring en unieke “automatiserings mindset” gebeurt dit ook nog eens duurzaam. Scroll naar onderen voor een indruk van de diensten waarmee wij u van dienst kunnen zijn."
   button:
     enable : true
-    label : "Meer over Kroescontrol"
+    label : "Leer ons kennen"
     link : "about"
+
+################################## about DUO ################################
+aboutduo:
+  enable: true
+  image : "images/about/aboutduo.jpg"
+  # content supports markdown, make sure to give enough space, otherwise markdown will not work properly
+  content : "
+
+  ## Kroescontrol denkt met u mee!
+
+ Kroescontrol is een professionele dienstverlener binnen IT. Kernwoorden binnen de dagelijkse werkzaamheden zijn Linux, Open Source, DevOps & Cloud infrastructure. 
+ 
+
+Wij denken met u mee op elk niveau van uw IT-infrastructuur. Vanwege de passie voor techniek, ervaring en unieke “automatiserings mindset” gebeurt dit ook nog eens duurzaam. Scroll naar onderen voor een indruk van de diensten waarmee wij u van dienst kunnen zijn."
+  button:
+    enable : true
+    label : "Leer ons kennen"
+    link : "about"
+
+        
+#    /home/serkroes/workspace/website/kroescontrol.nl/static/images/about/aboutduo.jpg
 
 ################################# testimonial ################################
 testimonial:

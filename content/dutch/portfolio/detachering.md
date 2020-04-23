@@ -2,9 +2,9 @@
 title: "Detachering"
 draft: false
 # portfolio image
-image: "images/portfolio/test1.jpg"
+image: "images/portfolio/kroescontrol-detachering.jpg"
 # page title background image
-bg_image: "images/portfolio/test1.jpg"
+bg_image: "images/portfolio/kroescontrol-detachering.jpg"
 # meta description
 description : "Kroescontrol, uw partij voor talentontwikkeling en capaciteitsvraagstukken!"
 # sidebar project details

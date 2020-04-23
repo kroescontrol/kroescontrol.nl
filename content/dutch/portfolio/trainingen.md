@@ -2,9 +2,9 @@
 title: "Trainingen"
 draft: false
 # portfolio image
-image: "images/portfolio/test2.jpg"
+image: "images/portfolio/kroescontrol-trainingen.jpg"
 # page title background image
-bg_image: "images/portfolio/test2.jpg"
+bg_image: "images/portfolio/kroescontrol-trainingen.jpg"
 # meta description
 description : "Trainingen door Kroescontrol"
 # sidebar project details

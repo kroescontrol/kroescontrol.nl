@@ -2,9 +2,9 @@
 title: "Managed services"
 draft: false
 # portfolio image
-image: "images/portfolio/msp.jpg"
+image: "images/portfolio/kroescontrol-managed-services.jpg"
 # page title background image
-bg_image: "images/portfolio/msp.jpg"
+bg_image: "images/portfolio/kroescontrol-managed-services.jpg"
 # meta description
 description : "Managed services door Kroescontrol"
 # sidebar project details

@@ -26,7 +26,7 @@
 
           {{ if .button_test.enable }}
           {{ with .button_test }}
-          <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary m-2">{{ .label }}</a>
+          <a href="{{ .link | absLangURL }}" class="btn btn-primary m-2">{{ .label }}</a>
           {{ end }}
           {{ end }}
 
@@ -47,6 +47,30 @@
 {{ if $data.homepage.cta2.enable }}
 {{ partial "cta2.html" . }}
 {{ end }}
+
+<!-- about DUO -->
+{{ if $data.homepage.aboutduo.enable }}
+{{ with $data.homepage.aboutduo }}
+<section class="section bg-secondary-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-4 mb-md-0 pr-lg-5">
+        <img src="{{ .image | absURL }}" alt="about" class="img-fluid">
+      </div>
+      <div class="col-md-6 pl-lg-4">
+        <div class="content mb-4">{{ .content | markdownify }}</div>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
+<!-- /about -->
 
 <!-- about -->
 {{ if $data.homepage.about.enable }}
