@@ -88,8 +88,8 @@ weight = 1
 
 #################### default parameters ################################
 [params]
-#logo = "images/logo_wit_achter_22.png"
-logo = "images/mainlogo.png"
+logo = "logo/KC-logo-gradientBW.png"
+
 home = "Home"
 # Meta data
 description = "Kroescontrol is hét adres voor ervaren en professionele cloud engineers."
