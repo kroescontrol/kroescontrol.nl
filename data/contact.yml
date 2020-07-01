@@ -22,10 +22,10 @@ branch:
   enable : true
   branchOffice:
     # branch office loop
-    - title : "Corporate Office"
+    - title : "Bezoekadres:"
       info:
         # branch information loop
-        - label : "North Main Street,Brooklyn Australia"
+        - label : "Zonnehorst 5, 7207BT Zutphen"
           icon : "ti-location-pin" # here we use themify icon pack : https://themify.me/themify-icons
           
         # branch information loop

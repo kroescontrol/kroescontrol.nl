@@ -1,7 +1,7 @@
 ####################### Banner ##########################################
 banner:
   enable: true
-  bgImage : "images/bg/main-banner1.jpg"
+  bgImage : "images/bg/testje.png"
   subtitle : "De kracht van automatiseren"
   title : "DevOps autopilot"
   content : "Bij Kroescontrol proberen we de infrastructuur voor uw organisatie te laten werken, en niet andersom! 
@@ -19,7 +19,7 @@ bannerFeature:
     # feature item loop
     - icon : "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
       title : "Met een frisse blik naar de infra kijken"
-      content : "Door gezamenlijk met u naar de infra te kijken, vloeien hier vaak nieuwe ideeen uit."
+      content : "Door gezamenlijk met u naar de infra te kijken komen vaak nieuwe ideeeën tot stand."
       
     # feature item loop
     - icon : "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons

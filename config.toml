@@ -165,8 +165,8 @@ cookie = true
 expireDay = 2
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "51.5223477"
-mapLongitude = "-0.1622023"
+mapLatitude = "52.111710"
+mapLongitude = "6.220770"
 mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
@@ -187,27 +187,21 @@ copyright = "&copy; Copyright Reserved to <span class=\"text-color\">Orbitor</sp
 
   # footer about
   [params.footer.about]
-  title = "Orbitor"
-  content = "Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus."
+  title = "Kroescontrol"
+  content = "Dè autopilot voor uw IT-omgeving"
 
   # contact info
   [params.contact]
-  mobile = "+23-345-67890"
-  email = "support@gmail.com"
-  location = "North Main Street,Brooklyn Australia"
+  mobile = "+31-6-34559870"
+  email = "info@kroescontrol.nl"
+  location = "Zonnehorst 5, 7207BT Zutphen"
 
 ################################# Social icon #######################
-[[params.social]]
-icon = "ti-facebook"
-link = "#"
+[[params.postShare]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/kroescontrol"
 
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
 
-[[params.social]]
-icon = "ti-github"
-link = "#"
 
 ############################# post share links ######################
 [[params.postShare]]
