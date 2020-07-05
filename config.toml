@@ -88,7 +88,7 @@ weight = 1
 
 #################### default parameters ################################
 [params]
-logo = "logo/KC-logo-gradientBW.png"
+logo = "logo/KC-logo-gradientBW_small.png"
 
 home = "Home"
 # Meta data
