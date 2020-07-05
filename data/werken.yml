@@ -1,0 +1,107 @@
+############################### Service style 1 #########################
+service1:
+  enable : false
+  serviceItem:
+    # service item loop
+    - title : "Blaat test"
+      image : "images/service/service-1.jpg"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptatum, nobis quos dolores reiciendis
+            unde. Est obcaecati aspernatur pariatur aliquid quos repellendus, amet architecto similique, cumque nisi
+            earum, culpa, ipsa!"
+            
+    # service item loop
+    - title : "Software Maintenance"
+      image : "images/service/service-3.jpg"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptatum, nobis quos dolores reiciendis
+            unde. Est obcaecati aspernatur pariatur aliquid quos repellendus, amet architecto similique, cumque nisi
+            earum, culpa, ipsa!"
+            
+    # service item loop
+    - title : "Web App Development"
+      image : "images/service/service-4.jpg"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptatum, nobis quos dolores reiciendis
+            unde. Est obcaecati aspernatur pariatur aliquid quos repellendus, amet architecto similique, cumque nisi
+            earum, culpa, ipsa!"
+
+
+############################# Case Study ##############################
+casestudy:
+  enable : true
+  title : "Waarom Kroescontrol?"
+  content : "Hieronder vind je een aantal voorbeelden waarom werken bij Kroescontrol super gaaf is!"
+  case:
+    # case loop
+    - title : "Tesla!"
+      image : "images/werken/tesla.jpg"
+      content : "Bij Kroescontrol zijn we gek op techniek, een Tesla die bomvol techniek zit sluit hier natuurlijk het beste op aan. Daarom rijden alle engineers bij Kroescontrol in Tesla's"
+              
+    # case loop
+    - title : "Vrije studiekeuze"
+      image : "images/werken/studie.jpg"
+      content : "Wij vinden dat engineers zelf goed in staat zijn om hun expertises verder te ontwikkelen. Daarom heeft Kroescontrol geen vast opleidings pad, en kiezen we certificeringen die bij jou persoonlijk passen.
+      Word je ergens enthousiast van? Grote kans dat het leren dan ook makkelijker gaat!"
+              
+    # case loop
+    - title : "Bonus regeling"
+      image : "images/werken/bonus.jpg"
+      content : "Jij werkt hard voor de opdrachtgever, en wij vinden daarom dat je daarvoor een beloning verdient. Kroescontrol keert 8% van de omzet die jij genereert als 
+      maandelijks als (bruto) bonus uit. Dit loopt al snel op tot 800 euro extra!"
+              
+    # case loop
+    - title : "Gadgets"
+      image : "images/werken/gadget.jpg"
+      content : "Wij zijn gek op (dure) speeltjes! Of het nou een nieuwe dikke laptop is, of een super luid mechanisch toetsenbord. Bij Kroescontrol kan je 
+      gebruik maken van een Engineer budget. Hier kies jij zelf jou ideale uitrusting uit, waar jijzelf het beste op kunt werken. "
+
+############################### Service style 2 #########################
+service2:
+  enable : false
+  title : "Industry Leading Managed <br>Services & Staffing Solutions"
+  content : "Quos recusandae dolore, consequuntur nemo hic nisi perferendis. Vel praesentium magnam architecto delectus
+            blanditiis doloremque, deleniti aperiam ab adipisci!"
+  serviceItem:
+    # service item loop
+    - title : "Flexible Engagement <br>Models"
+      icon : "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons
+      
+    # service item loop
+    - title : "Custom Software <br>Development"
+      icon : "ti-desktop" # here we use themify icon pack : https://themify.me/themify-icons
+      
+    # service item loop
+    - title : "Product Innovation &<br>Technology"
+      icon : "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
+      
+    # service item loop
+    - title : "Mobility<br> Service"
+      icon : "ti-mobile" # here we use themify icon pack : https://themify.me/themify-icons
+      
+    # service item loop
+    - title : "Quality <br>Assurance"
+      icon : "ti-check-box" # here we use themify icon pack : https://themify.me/themify-icons
+      
+    # service item loop
+    - title : "Enterprise <br>Solution"
+      icon : "ti-dashboard" # here we use themify icon pack : https://themify.me/themify-icons
+      
+    # service item loop
+    - title : "Integrated & Dedicated<br> Teams"
+      icon : "ti-headphone-alt" # here we use themify icon pack : https://themify.me/themify-icons
+      
+    # service item loop
+    - title : "Big data and<br> analytics"
+      icon : "ti-bar-chart-alt" # here we use themify icon pack : https://themify.me/themify-icons
+      
+    # service item loop
+    - title : "Cloud backup <br>System<"
+      icon : "ti-cloud-up" # here we use themify icon pack : https://themify.me/themify-icons
+      
+############################### call to action ###############################
+cta:
+  enable: true
+  subtitle : "Staat er geen vacature tussen voor jou, maar wil je wel bij ons werken?"
+  title : "Open sollicitatie"
+  button:
+    enable : true
+    label : "Neem contact op"
+    link : "contact"
