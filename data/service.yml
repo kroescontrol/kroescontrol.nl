@@ -4,7 +4,7 @@ service1:
   serviceItem:
     # service item loop
     - title : "Detachering"
-      image : "images/service/service-3.jpg"
+      image : "images/service/service-2.jpg"
       content : "Bedrijven zijn bij ons aan het juiste adres voor innovatieve oplossingen omtrent talentontwikkeling en capaciteitsvraagstukken. 
       
       Kroescontrol kan voor langere periodes ingezet worden om met de dagelijkse gang van zaken mee te helpen."
@@ -104,7 +104,7 @@ service2:
       
 ############################### call to action ###############################
 cta:
-  enable: true
+  enable: false
   subtitle : "Voor startende, en enterprise bedrijven"
   title : "Kroescontrol helpt"
   button:

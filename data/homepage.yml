@@ -9,12 +9,12 @@ banner:
   button:
     enable : true
     label : "Meer informatie"
-    link : "about"
+    link : "service"
 
 
 ########################### Banner feature ################################
 bannerFeature:
-  enable : true
+  enable : false
   featureItem:
     # feature item loop
     - icon : "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
@@ -62,7 +62,7 @@ feature:
 cta:
   enable: true
   title : "Klaar om te versnellen?"
-  content : "Wij hebben uw organisatie vandaag nog om te versnellen. Neem vrijblijvend contact op om de mogelijkheden te bespreken!"
+  content : "Wij helpen uw organisatie vandaag nog om te versnellen. Neem vrijblijvend contact op om de mogelijkheden te bespreken!"
   button:
     enable: true
     label : "Contact"
@@ -70,7 +70,7 @@ cta:
 
 ################################### portfolio ####################################
 project:
-  enable: true
+  enable: false
   title : "Een kijkje in de keuken"
   content : "Kroescontrol is transparant in zijn werkwijze, daarom bieden wij u graag een kijkje achter de schermen. Onderstaand treft u een aantal technische oplossingen en Meetups die meer inzicht in onze werkwijze bieden."
 

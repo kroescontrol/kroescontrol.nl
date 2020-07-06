@@ -1,10 +1,10 @@
 ############################### Counter #################################
 counter:
-  enable: true
+  enable: false
   title : "Pixel, Passie en Plezier! <br /> Kroescontrol in 3 woorden!"
 ####################### Promo video #########################################
 video:
-  enable: true
+  enable: false
   title : "Ambitieus Bedrijf"
   videoThumb: "images/about/img-34.png"
   videoId: "sXoKSD8QJEA"

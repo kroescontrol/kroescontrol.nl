@@ -71,101 +71,85 @@ enableRobotsTXT = true
 
   [[menu.main]]
   weight = 2
-  name = "PROFESSIONALS"
+  name = "Professionals"
+  URL = "werken2"
   hasChildren = true
 
     [[menu.main]]
-    parent = "PROFESSIONALS"
-    name = "Werken Bij"
+    parent = "Professionals"
+    name = "Werken Bij"       # jouw-carriere/
     URL = "werken"
     weight = 1
 
     [[menu.main]]
-    parent = "PROFESSIONALS"
+    parent = "Professionals"
+    name = "Vacatures"
+    URL = "career"
+    weight = 2
+
+    [[menu.main]]
+    parent = "Professionals"
     name = "Over Ons"
     URL = "about"
     weight = 2
   
-    [[menu.main]]
-    parent = "PROFESSIONALS"
-    name = "Contact "
-    URL = "contact"
-    weight = 5
-
   ###
   ### opdrachtgevers
   ###
 
   [[menu.main]]
   weight = 3
-  name = "OPDRACHGEVERS"
+  name = "Opdrachtgevers"
+  URL = "servicex"
   hasChildren = true
 
     [[menu.main]]
-    parent = "OPDRACHGEVERS"
-    name = "Oplossingen"
+    parent = "Opdrachtgevers"
+    name = "Onze Diensten"
     URL = "service"
-    weight = 1
-
-    [[menu.main]]
-    parent = "OPDRACHGEVERS"
-    name = "2"
-    URL = "2"
     weight = 2
 
     [[menu.main]]
-    parent = "OPDRACHGEVERS"
+    parent = "Opdrachtgevers"
     name = "Contact"
     URL = "contact"
     weight = 5
 
-  
+  ###
+  ### footer links
+  ###
+
   [[menu.footer1]]
-  name = "Portfolio"
-  URL = "portfolio"
+  name = "Werken bij"
+  URL = "werken"
+  weight = 1
+
+  [[menu.footer1]]
+  name = "Over Ons"
+  URL = "about"
   weight = 2
-  
+
   [[menu.footer1]]
-  name = "Service"
-  URL = "diensten"
+  name = "Vacatures"
+  URL = "career"
   weight = 3
-  
-  [[menu.footer1]]
-  name = "Blog"
-  URL = "blog"
-  weight = 4
-  
-  [[menu.footer1]]
-  name = "Contact"
-  URL = "contact"
-  weight = 5
-  
+
+  ###
+  ### footer rechts
+  ###
+
   # footer menu 2
   [[menu.footer2]]
-  name = "About"
-  URL = "about"
-  weight = 1
-  
-  [[menu.footer2]]
-  name = "Portfolio"
-  URL = "portfolio"
-  weight = 2
-  
-  [[menu.footer2]]
-  name = "Service"
+  name = "Onze Diensten"
   URL = "service"
   weight = 3
-  
-  [[menu.footer2]]
-  name = "Blog"
-  URL = "blog"
-  weight = 4
-  
+
   [[menu.footer2]]
   name = "Contact"
   URL = "contact"
   weight = 5
-
+  
+  
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
@@ -173,10 +157,10 @@ logoAlt = "images/logo-w.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Kroescontrol"
 # Cookie
 cookie = true
-expireDay = 2
+expireDay = 7
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "52.111710"
@@ -185,15 +169,15 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # copyright
-copyright = "&copy; Copyright Reserved to <span class=\"text-color\">Orbitor</span> by <a href=\"https://themefisher.com/\" target=\"_blank\">Themefisher"
+copyright = "&copy; Copyright Kroescontrol 2020"
 
   # Preloader
   [params.preloader]
-  enable = true
+  enable = false
 
   # Navigation button
   [params.navBtn]
-  enable = true
+  enable = false
   label = "Get an estimate"
   link = "contact"
 
@@ -202,11 +186,11 @@ copyright = "&copy; Copyright Reserved to <span class=\"text-color\">Orbitor</sp
   # footer about
   [params.footer.about]
   title = "Kroescontrol"
-  content = "Dè autopilot voor uw IT-omgeving"
+  content = "Pixels, passie & plezier. Kroescontrol in 3 woorden!"
 
   # contact info
   [params.contact]
-  mobile = "+31-6-34559870"
+  mobile = "+31634116494"
   email = "info@kroescontrol.nl"
   location = "Zonnehorst 5, 7207BT Zutphen"
 
