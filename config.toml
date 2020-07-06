@@ -64,32 +64,61 @@ enableRobotsTXT = true
   
 ############################## navigation ###############################
 [menu]
-    
+
+  ###
+  ### professionals
+  ###
+
   [[menu.main]]
-  name = "Over Ons"
-  URL = "about"
   weight = 2
+  name = "PROFESSIONALS"
+  hasChildren = true
+
+    [[menu.main]]
+    parent = "PROFESSIONALS"
+    name = "Werken Bij"
+    URL = "werken"
+    weight = 1
+
+    [[menu.main]]
+    parent = "PROFESSIONALS"
+    name = "Over Ons"
+    URL = "about"
+    weight = 2
   
+    [[menu.main]]
+    parent = "PROFESSIONALS"
+    name = "Contact "
+    URL = "contact"
+    weight = 5
+
+  ###
+  ### opdrachtgevers
+  ###
+
   [[menu.main]]
-  name = "Service & Diensten"
-  URL = "service"
   weight = 3
+  name = "OPDRACHGEVERS"
+  hasChildren = true
 
-  [[menu.main]]
-  name = "Werken Bij"
-  URL = "werken"
-  weight = 4
+    [[menu.main]]
+    parent = "OPDRACHGEVERS"
+    name = "Oplossingen"
+    URL = "service"
+    weight = 1
 
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 5
+    [[menu.main]]
+    parent = "OPDRACHGEVERS"
+    name = "2"
+    URL = "2"
+    weight = 2
 
-  # footer menu 1
-  [[menu.footer1]]
-  name = "About"
-  URL = "about"
-  weight = 1
+    [[menu.main]]
+    parent = "OPDRACHGEVERS"
+    name = "Contact"
+    URL = "contact"
+    weight = 5
+
   
   [[menu.footer1]]
   name = "Portfolio"
