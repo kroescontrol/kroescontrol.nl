@@ -5,7 +5,7 @@ banner:
   subtitle : "De kracht van automatiseren"
   title : "DevOps autopilot"
   content : "Bij Kroescontrol proberen we de infrastructuur voor uw organisatie te laten werken, en niet andersom! 
-            Daarom automatiseren we zoveel mogelijk, en versnellen we de Development binnen een organisatie"
+            Daarom automatiseren we zoveel mogelijk, en versnellen we het development binnen een organisatie"
   button:
     enable : true
     label : "Meer informatie"

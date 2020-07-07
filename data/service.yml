@@ -7,17 +7,15 @@ service1:
       image : "images/service/service-2.jpg"
       content : "Bedrijven zijn bij ons aan het juiste adres voor innovatieve oplossingen omtrent talentontwikkeling en capaciteitsvraagstukken. 
       
-      Kroescontrol kan voor langere periodes ingezet worden om met de dagelijkse gang van zaken mee te helpen."
+      Kroescontrol kan voor langere periodes ingezet worden om de dagelijkse gang van zaken te ondersteunen."
             
     # service item loop
     - title : "Consultancy"
       image : "images/service/service-1.jpg"
-      content : "Op zoek naar een samenwerken voor de langere termijn? 
+      content : "Op zoek naar een samenwerking voor de langere termijn? 
       
-      
-      Bij Kroescontrol helpen wij u graag verder. In sommige gevallen is alleen 
-      hele specifieke kennis verreist, en alleen binnen een bepaalde tijd van een project. Kroescontrol bied hiervoor consultancy, om de technische vraagstukken
-      te helpen beantwoorden."
+      Bij Kroescontrol helpen wij u graag verder. In sommige gevallen is binnen de bepaalde tijd van een project, hele specifieke kennis vereist. Kroescontrol biedt hiervoor consultancy aan."
+
             
     # service item loop
     - title : "Trainingen"
@@ -63,7 +61,7 @@ casestudy:
 service2:
   enable : true
   title : "Een flexibel bedrijf, dat graag met u de mogelijkheden bekijkt"
-  content : "Bij kroescontrol werken probleemoplossers. Wij bijten ons vast in problemen, en komen met techniek gedreven oplossingen.
+  content : "Bij kroescontrol werken probleemoplossers. Wij bijten ons vast in problemen, en komen met techniekgedreven oplossingen.
   Wij helpen u graag bij uw (technische) uitdagingen!"
  # serviceItem:
  #   # service item loop

@@ -28,7 +28,7 @@ service1:
 casestudy:
   enable : true
   title : "Waarom Kroescontrol?"
-  content : "Hieronder vind je een aantal voorbeelden waarom werken bij Kroescontrol super gaaf is!"
+  content : "Werken bij Kroescontrol is super gaaf, dit is waarom!"
   case:
     # case loop
     - title : "Tesla!"
@@ -38,7 +38,7 @@ casestudy:
     # case loop
     - title : "Vrije studiekeuze"
       image : "images/werken/studie.jpg"
-      content : "Wij vinden dat engineers zelf goed in staat zijn om hun expertises verder te ontwikkelen. Daarom heeft Kroescontrol geen vast opleidings pad, en kiezen we certificeringen die bij jou persoonlijk passen.
+      content : "Wij vinden dat engineers zelf goed in staat zijn om hun expertises verder te ontwikkelen. Daarom heeft Kroescontrol geen vast opleidingspad, en kiezen we certificeringen die bij jou persoonlijk passen.
       Word je ergens enthousiast van? Grote kans dat het leren dan ook makkelijker gaat!"
               
     # case loop
@@ -51,7 +51,7 @@ casestudy:
     - title : "Gadgets"
       image : "images/werken/gadget.jpg"
       content : "Wij zijn gek op (dure) speeltjes! Of het nou een nieuwe dikke laptop is, of een super luid mechanisch toetsenbord. Bij Kroescontrol kan je 
-      gebruik maken van een Engineer budget. Hier kies jij zelf jou ideale uitrusting uit, waar jijzelf het beste op kunt werken. "
+      gebruik maken van een engineersbudget. Hier kies jij zelf jou ideale uitrusting uit!"
 
 ############################### Service style 2 #########################
 service2:

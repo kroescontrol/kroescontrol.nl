@@ -170,7 +170,6 @@ mapMarker = "images/marker.png"
 googleAnalitycsID = "Your ID"
 # copyright
 copyright = "&copy; Copyright Kroescontrol 2020"
-
   # Preloader
   [params.preloader]
   enable = false
