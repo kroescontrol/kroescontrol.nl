@@ -8,8 +8,6 @@ image : "#"
 ---
 
 
-Privacy is belangrijk, daarom heeft Kroescontrol een beleid opgesteld
+Via onze website worden privacygevoelige gegevens oftewel persoonsgegevens verwerkt. Kroescontrol acht een zorgvuldige omgang met persoonsgegevens van groot belang. Persoonlijke gegevens worden door ons dan ook zorgvuldig verwerkt en beveiligd.
 
-
-
-[Ons beleid](https://docs.google.com/document/d/11uFOgE6UmMAwaz97sSRBZzEEQ5R0L7YjoJtmzuJc6ts/edit
+U vindt [hier](https://docs.google.com/document/d/11uFOgE6UmMAwaz97sSRBZzEEQ5R0L7YjoJtmzuJc6ts/edit "Privacyverklaring Kroescontrol") onze volledige privacyverklaring
