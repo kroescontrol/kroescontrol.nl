@@ -1,12 +1,10 @@
 ---
 title: "Linux engineer"
 date: 2020-06-24T09:51:57+06:00
-# page title background image
-bg_image: "images/backgrounds/about2.jpg"
 # meta description
 description : "Op zoek naar een nieuwe IT baan? Bekijk de vacature Linux engineer van Kroescontrol. Bekijk welke vacatures er open staan en solliciteer direct!"
 # company logo
-image : "" # if you have company logo, give this logo here
+image : "images/beeldmerk/KC-beeldmerk-gradientKLEUR-small.png"
 # location
 location : "Nederland"
 # job type
