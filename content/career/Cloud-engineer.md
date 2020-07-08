@@ -1,6 +1,6 @@
 ---
 title: "Cloud engineer"
-date: 2020-04-14T09:51:57+06:00
+date: 2020-07-04T09:51:57+06:00
 # page title background image
 bg_image: "images/backgrounds/about2.jpg"
 # meta description

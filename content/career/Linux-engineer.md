@@ -1,6 +1,6 @@
 ---
 title: "Linux engineer"
-date: 2020-06-16T09:51:57+06:00
+date: 2020-06-24T09:51:57+06:00
 # page title background image
 bg_image: "images/backgrounds/about2.jpg"
 # meta description
