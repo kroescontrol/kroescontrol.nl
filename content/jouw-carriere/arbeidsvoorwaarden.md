@@ -11,8 +11,24 @@ tags:
   - "arbeidsvoorwaarden"
   
 ---
+## Wat wij bieden
 
-### yolo
+**Jaarsalaris:** vanaf €60.000 bruto
 
-- 1
-- 2
+**Bonus:** standaard 5%, kan groeien tot 15%
+
+**Vakantiedagen:** Onbeperkt, wel in overleg
+
+**Studiebudget:** Onbeperkt, wel in overleg
+
+**Auto van de zaak:** Tesla
+
+**Engineer budget:** €5.000 per jaar (415 per maand)
+
+**Reiskosten:** Voor eigen vervoer €0,38 per km
+
+**Winstuitkering:** Een winstbonus van €5.000,-
+
+**Overname studieschuld vorige werkgever:** Ja (in overleg)
+
+*Alle genoemde bedragen zijn bruto bedragen*

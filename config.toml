@@ -101,8 +101,8 @@ enableRobotsTXT = true
 
     [[menu.main]]
     parent = "Professionals"
-    name = "carrierepad"
-    URL = "jouw-carriere/carrierepad"
+    name = "carrièrepad"
+    URL = "jouw-carriere/carrièrepad"
     weight = 8
 
 
