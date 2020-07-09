@@ -77,12 +77,6 @@ enableRobotsTXT = true
 
     [[menu.main]]
     parent = "Professionals"
-    name = "Werken Bij"       # jouw-carriere/
-    URL = "werken"
-    weight = 1
-
-    [[menu.main]]
-    parent = "Professionals"
     name = "Vacatures"
     URL = "career"
     weight = 2
@@ -91,7 +85,32 @@ enableRobotsTXT = true
     parent = "Professionals"
     name = "Over Ons"
     URL = "about"
-    weight = 2
+    weight = 4
+
+    [[menu.main]]
+    parent = "Professionals"
+    name = "Werken Bij"
+    URL = "werken"
+    weight = 6
+
+    [[menu.main]]
+    parent = "Professionals"
+    name = "sollicitatieproces"
+    URL = "jouw-carriere/sollicitatieproces"
+    weight = 7
+
+    [[menu.main]]
+    parent = "Professionals"
+    name = "carrierepad"
+    URL = "jouw-carriere/carrierepad"
+    weight = 8
+
+
+    [[menu.main]]
+    parent = "Professionals"
+    name = "arbeidsvoorwaarden"
+    URL = "jouw-carriere/arbeidsvoorwaarden"
+    weight = 9
   
   ###
   ### opdrachtgevers
