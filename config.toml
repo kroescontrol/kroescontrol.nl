@@ -93,24 +93,27 @@ enableRobotsTXT = true
     URL = "werken"
     weight = 6
 
-    [[menu.main]]
-    parent = "Professionals"
-    name = "sollicitatieproces"
-    URL = "jouw-carriere/sollicitatieproces"
-    weight = 7
+    # draft
+    #[[menu.main]]
+    #parent = "Professionals"
+    #name = "sollicitatieproces"
+    #URL = "jouw-carriere/sollicitatieproces"
+    #weight = 7
 
-    [[menu.main]]
-    parent = "Professionals"
-    name = "carrièrepad"
-    URL = "jouw-carriere/carrièrepad"
-    weight = 8
+    # draft
+    #[[menu.main]]
+    #parent = "Professionals"
+    #name = "carrièrepad"
+    #URL = "jouw-carriere/carrièrepad"
+    #weight = 8
 
 
-    [[menu.main]]
-    parent = "Professionals"
-    name = "arbeidsvoorwaarden"
-    URL = "jouw-carriere/arbeidsvoorwaarden"
-    weight = 9
+    # draft
+    #[[menu.main]]
+    #parent = "Professionals"
+    #name = "arbeidsvoorwaarden"
+    #URL = "jouw-carriere/arbeidsvoorwaarden"
+    #weight = 9
   
   ###
   ### opdrachtgevers

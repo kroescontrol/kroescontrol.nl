@@ -1,7 +1,6 @@
 ---
 title: "Sollicitatieproces"
 date: 2020-07-09T15:24:04+06:00
-draft: false
 description: "This is meta description"
 bgImage: "images/bg/section-bg5.jpg"
 image: "images/bg/bg-6.jpg"
@@ -9,7 +8,8 @@ categories:
   - "carriere"
 tags:
   - "sollicitatie"
-  
+draft: true
+
 ---
 **Je hebt een sollicitatie ingediend, wat nu?**
 
