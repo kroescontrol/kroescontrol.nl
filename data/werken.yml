@@ -37,13 +37,13 @@ casestudy:
               
     # case loop
     - title : "Vrije studiekeuze"
-      image : "images/werken/studie.jpg"
+      image : "images/werken/studiemogelijkheden.png"
       content : "Wij vinden dat engineers zelf goed in staat zijn om hun expertises verder te ontwikkelen. Daarom heeft Kroescontrol geen vast opleidingspad, en kiezen we certificeringen die bij jou persoonlijk passen.
       Word je ergens enthousiast van? Grote kans dat het leren dan ook makkelijker gaat!"
               
     # case loop
     - title : "Bonus regeling"
-      image : "images/werken/bonus.jpg"
+      image : "images/werken/bonusregeling.jpg"
       content : "Jij werkt hard voor de opdrachtgever, en wij vinden daarom dat je daarvoor een beloning verdient. Kroescontrol keert 8% van de omzet die jij genereert als 
       maandelijks als (bruto) bonus uit. Dit loopt al snel op tot 800 euro extra!"
               

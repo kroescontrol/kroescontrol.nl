@@ -49,16 +49,10 @@ team:
 
 ################################ Clients #######################################
 clients:
-  enable : false
+  enable : true
   title : "Technieken die wij gebruiken"
   content : "Onderstaand een greep uit de technieken die Kroescontrol veel bij zijn klanten tegen komt."
-  logos:
-    - logo : "images/about/02.png"
-    - logo : "images/about/03.png"
-    - logo : "images/about/04.png"
-    - logo : "images/about/05.png"
-    - logo : "images/about/06.png"
-    - logo : "images/about/07.png"
+
     
 ########################## Testimonial #############################################
 testimonial:
