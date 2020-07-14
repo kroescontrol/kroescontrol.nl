@@ -1,7 +1,7 @@
 ---
 title: "Sollicitatieproces"
 date: 2020-07-09T15:24:04+06:00
-description: "This is meta description"
+description: "De sollicitatieprocedure bij Kroescontrol"
 bgImage: "images/bg/section-bg5.jpg"
 image: "images/bg/bg-6.jpg"
 categories: 
