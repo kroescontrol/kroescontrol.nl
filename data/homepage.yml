@@ -1,7 +1,7 @@
 ####################### Banner ##########################################
 banner:
   enable: true
-  bgImage : "images/bg/testje.png"
+  bgImage : "images/bg/homepage.png"
   subtitle : "De kracht van automatiseren"
   title : "DevOps autopilot"
   content : "Bij Kroescontrol proberen we de infrastructuur voor uw organisatie te laten werken, en niet andersom! 

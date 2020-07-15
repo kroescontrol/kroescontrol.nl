@@ -4,14 +4,14 @@ service1:
   serviceItem:
     # service item loop
     - title : "Detachering"
-      image : "images/service/service-2.jpg"
+      image : "images/service/detachering.jpg"
       content : "Bedrijven zijn bij ons aan het juiste adres voor innovatieve oplossingen omtrent talentontwikkeling en capaciteitsvraagstukken. 
       
       Kroescontrol kan voor langere periodes ingezet worden om de dagelijkse gang van zaken te ondersteunen."
             
     # service item loop
     - title : "Consultancy"
-      image : "images/service/service-1.jpg"
+      image : "images/service/consultancy.jpg"
       content : "Op zoek naar een samenwerking voor de langere termijn? 
       
       Bij Kroescontrol helpen wij u graag verder. In sommige gevallen is binnen de bepaalde tijd van een project, hele specifieke kennis vereist. Kroescontrol biedt hiervoor consultancy aan."

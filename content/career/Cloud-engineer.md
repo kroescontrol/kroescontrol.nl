@@ -6,7 +6,7 @@ image: "images/backgrounds/about2.jpg"
 # meta description
 description : "Op zoek naar een nieuwe IT baan? Bekijk de vacature Cloud engineer van Kroescontrol. Bekijk welke vacatures er open staan en solliciteer direct!"
 # company logo
-image : "images/beeldmerk/KC-beeldmerk-gradientKLEUR-small.png"
+image : "images/beeldmerk/Kroescontrol-beeldmerk-kleur.png"
 # location
 location : "Nederland"
 # job type

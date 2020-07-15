@@ -4,7 +4,7 @@ date: 2020-06-24T09:51:57+06:00
 # meta description
 description : "Op zoek naar een nieuwe IT baan? Bekijk de vacature Linux engineer van Kroescontrol. Bekijk welke vacatures er open staan en solliciteer direct!"
 # company logo
-image : "images/beeldmerk/KC-beeldmerk-gradientKLEUR-small.png"
+image : "images/beeldmerk/Kroescontrol-beeldmerk-kleur.png"
 # location
 location : "Nederland"
 # job type
