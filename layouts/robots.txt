@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /images/
+Disallow: /data/
+Disallow: /i18n/
+Disallow: /js/
+Disallow: /plugins/
+Disallow: /scss/
+Disallow: /themes/
+Disallow: /static/
+
+Sitemap: {{ "sitemap.xml" | absLangURL }}

@@ -1,7 +1,7 @@
 ---
 title: "Project california"
 date: 2019-09-05T15:24:04+06:00
-draft: false
+draft: true
 description: "This is meta description"
 bgImage: "images/bg/section-bg5.jpg"
 category: "Web Development"
@@ -19,5 +19,5 @@ remaining essentially unchanged. It was popularised in the 1960s with the releas
 - **Project Name:** Business Accounting
 - **Client:** Company Name Inc.
 - **Project Start Date:** February 18, 2018
-- **Project Completion Date:** January 25, 2018 
+- **Project Completion Date:** January 25, 2018
 - **Project url:** www.example.com
