@@ -119,23 +119,17 @@ enableRobotsTXT = true
   ### opdrachtgevers
   ###
 
+ 
+
   [[menu.main]]
+  name = "Onze Diensten"
+  URL = "service"
   weight = 3
-  name = "Opdrachtgevers"
-  URL = "servicex"
-  hasChildren = true
 
-    [[menu.main]]
-    parent = "Opdrachtgevers"
-    name = "Onze Diensten"
-    URL = "service"
-    weight = 2
-
-    [[menu.main]]
-    parent = "Opdrachtgevers"
-    name = "Contact"
-    URL = "contact"
-    weight = 5
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 4
 
   ###
   ### footer links
