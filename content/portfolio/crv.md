@@ -1,22 +1,28 @@
 ---
-title: "Project california"
+title: "Migratie CRV"
 date: 2019-09-05T15:24:04+06:00
 draft: true
-description: "This is meta description"
+description: "CRV 's migratie naar de cloud"
 bgImage: "images/bg/section-bg5.jpg"
 category: "Web Development"
-image : "images/portfolio/crv.jpg"
+image : "images/portfolio/crv.png"
 type : "portfolio"
 ---
 
-### Engaging content and flexible User experience help to grow more
+### Omschrijving
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+CRV helpt boeren om beter en efficiënter veestapels te beheren, dit doen zij onder andere door software. Deze software wordt dagelijks door grote aantallen boeren gebruikt en moet daarom altijd up & running zijn. Onder andere om minder downtime en meer flexibiliteit realiseren wil CRV de stap naar de cloud maken. Dit vereist kennis, ervaring en een andere mindset (DevOps). Om ervaring en kennis op het gebied van cloud en DevOps te brengen is één van onze engineers eind bij CRV ingevlogen. 
 
-remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Onze engineer (Serge) is aan de slag gegaan met deze primaire doelen:
+* Kennis delen
+* Applicatieperformances verbeteren
+* Infrastructuur stabiel(er) maken
+* De migratie naar hybrid cloud ondersteunen
 
-- **Project Name:** Business Accounting
-- **Client:** Company Name Inc.
-- **Project Start Date:** February 18, 2018
-- **Project Completion Date:** January 25, 2018
-- **Project url:** www.example.com
+Dit deed hij in een DevOps team waarin Serge de meeste ervaring met DevOps had. Zodoende heeft hij het team op sleeptouw genomen met deze efficiënte manier van werken. Om alle bovengoemde doele te verwezenlijken heeft onze engineer onderwerpen zoals lifecycle management en tooling zoals Prometheus geïntroduceerd & geconfigureerd. 
+
+Na een jaar heeft onze engineer met voldoening mogen verlaten en heeft CRV een sterk verbeterde infrastructuur, apllicaties en een mindset die stukken beter aansluit bij hun cloud-native approach.
+
+- **Project Name:** CRV 's migratie naar de hybrid cloud
+- **Client:** CRV
+- **Project url:** www.crvv4all.nl

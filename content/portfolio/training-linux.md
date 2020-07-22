@@ -5,7 +5,7 @@ draft: true
 description: "This is meta description"
 bgImage: "images/bg/section-bg5.jpg"
 category: "Web Development"
-image : "images/portfolio/2.jpg"
+image : "images/service/trainingen.jpg"
 type : "portfolio"
 ---
 

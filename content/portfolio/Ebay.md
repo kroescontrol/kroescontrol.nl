@@ -1,16 +1,16 @@
 ---
-title: "Project california"
+title: "Marktplaats.nl "
 date: 2019-09-05T15:24:04+06:00
 draft: true
 description: "This is meta description"
 bgImage: "images/bg/section-bg5.jpg"
-category: "Web Development"
-image : "images/portfolio/6.jpg"
+category: "Research & Development"
+image : "images/portfolio/marktplaats.png"
 type : "portfolio"
 ---
 
 
-### Engaging content and flexible User experience help to grow more
+### Omschrijving
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
 
@@ -19,5 +19,5 @@ remaining essentially unchanged. It was popularised in the 1960s with the releas
 - **Project Name:** Business Accounting
 - **Client:** Company Name Inc.
 - **Project Start Date:** February 18, 2018
-- **Project Completion Date:** January 25, 2018 
+- **Project Completion Date:** January 25, 2018
 - **Project url:** www.example.com

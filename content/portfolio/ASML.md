@@ -5,7 +5,7 @@ draft: true
 description: "This is meta description"
 bgImage: "images/bg/section-bg5.jpg"
 category: "DevOps"
-image : "images/portfolio/ASML-logo.jpg"
+image : "images/portfolio/asml.png"
 type : "portfolio"
 ---
 
