@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://kroescontrol.nl"
+baseurl = "/"
 title = "Kroescontrol | IT & More"
 theme = "orbitor-hugo"
 # post pagination
