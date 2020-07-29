@@ -13,6 +13,7 @@ job_type : "Fulltime"
 job_category : "Linux engineer"
 # job apply link
 apply_link : "#"
+
 ---
 ### Functieomschrijving
 Tegenwoordig draaien de meeste servers op Linux, dat zal waarschijnlijk alleen nog maar toenemen. Om nog meer kennis en ervaring over Linux in huis te halen en te ontwikkelen is Kroescontrol op zoek naar een engineer die aan de volgende kwalificaties voldoet:

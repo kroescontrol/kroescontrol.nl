@@ -15,6 +15,7 @@ job_type : "Fulltime"
 job_category : "Cloud engineer"
 # job apply link
 apply_link : "#"
+
 ---
 ### Functieomschrijving
 Kroescontrol is op zoek naar een cloud engineer. Wij zijn een jong bedrijf bestaande uit cloud en automation engineers. Onze werkzaamheden bestaan uit consultancy, managed services, trainingen en detacheringswerk. Om nog meer kennis en ervaring in huis te halen en te ontwikkelen zoeken wij een cloud engineer die aan de volgende kwalificaties voldoet:
