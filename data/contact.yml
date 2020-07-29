@@ -1,14 +1,16 @@
 ################################### contact form #########################
 contact:
-  enable: false
+  enable: true
+  form_action: https://formspree.io/xvoblnaa
   subtitle : "Stuur ons een bericht"
   title : "Contact Formulier"
   # form submit email place on "mail.php" file
   selectOption:
+    - option : "Overig"
+    - option : "Werken bij"
     - option : "Detachering"
     - option : "Consultancy"
     - option : "Trainingen"
-    - option : "Overig"
 
 ############################# map ##################################
 map:

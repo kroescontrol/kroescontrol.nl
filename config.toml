@@ -183,7 +183,7 @@ mapLatitude = "52.111710"
 mapLongitude = "6.220770"
 mapMarker = "images/marker.png"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-163824714-1"
 # copyright
 copyright = "&copy; Copyright Kroescontrol 2020"
   # Preloader
