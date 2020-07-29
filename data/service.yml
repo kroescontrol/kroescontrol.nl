@@ -29,80 +29,76 @@ service1:
 
 ############################# Case Study ##############################
 casestudy:
-  enable : false
-  title : "How we works"
+  enable : true
+  title : "Wat doen wij"
   content : "There are many variations of lorem passages of Lorem Ipsum available, but the majority have suffered. All the Lorem Ipsum generators."
   case:
     # case loop
     - title : "Competitor Research"
-      image : "images/about/process-3.jpg"
+      image : "images/mstile-150x150.png"
       content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
               Commodi voluptas, deleniti distinctio quam totam vitae."
               
     # case loop
     - title : "Making Functional Strategy"
-      image : "images/about/process-2.jpg"
+      image : "images/mstile-150x150.png"
       content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
               Commodi voluptas, deleniti distinctio quam totam vitae."
               
     # case loop
     - title : "Project Outline"
-      image : "images/about/process-1.jpg"
+      image : "images/mstile-150x150.png"
       content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
               Commodi voluptas, deleniti distinctio quam totam vitae."
               
     # case loop
     - title : "Final Delivery"
-      image : "images/about/structure_sass.png"
+      image : "images/mstile-150x150.png"
       content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
               Commodi voluptas, deleniti distinctio quam totam vitae."
 
 ############################### Service style 2 #########################
+# here we use themify icon pack : https://themify.me/themify-icons
+
 service2:
   enable : true
   title : "Een flexibel bedrijf, dat graag met u de mogelijkheden bekijkt"
   content : "Bij kroescontrol werken probleemoplossers. Wij bijten ons vast in problemen, en komen met techniekgedreven oplossingen.
   Wij helpen u graag bij uw (technische) uitdagingen!"
- # serviceItem:
- #   # service item loop
- #   - title : "Maatwerk"
- #     icon : "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons
- #     
- #   # service item loop
- #   - title : "Custom Software <br>Development"
- #     icon : "ti-desktop" # here we use themify icon pack : https://themify.me/themify-icons
- #     
- #   # service item loop
- #   - title : "Product Innovation &<br>Technology"
- #     icon : "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
- #     
- #   # service item loop
- #   - title : "Mobility<br> Service"
- #     icon : "ti-mobile" # here we use themify icon pack : https://themify.me/themify-icons
- #     
- #   # service item loop
- #   - title : "Quality <br>Assurance"
- #     icon : "ti-check-box" # here we use themify icon pack : https://themify.me/themify-icons
- #     
- #   # service item loop
- #   - title : "Enterprise <br>Solution"
- #     icon : "ti-dashboard" # here we use themify icon pack : https://themify.me/themify-icons
- #     
- #   # service item loop
- #   - title : "Integrated & Dedicated<br> Teams"
- #     icon : "ti-headphone-alt" # here we use themify icon pack : https://themify.me/themify-icons
- #     
- #   # service item loop
- #   - title : "Big data and<br> analytics"
- #     icon : "ti-bar-chart-alt" # here we use themify icon pack : https://themify.me/themify-icons
- #     
- #   # service item loop
- #   - title : "Cloud backup <br>System<"
- #     icon : "ti-cloud-up" # here we use themify icon pack : https://themify.me/themify-icons
+  serviceItem:
+    - title : "Maatwerk"
+      icon : "ti-panel"
+    - title : "Software Development"
+      icon : "ti-desktop"
+    - title : "Product Innovation"
+      icon : "ti-light-bulb"
+    - title : "Automation"
+      icon : "ti-control-forward"
+    - title : "DevOps"
+      icon : "ti-infinite"
+    - title : "Quality Assurance"
+      icon : "ti-check-box"
+    - title : "Enterprise Solution"
+      icon : "ti-dashboard"
+    - title : "Integrated & Dedicated<br> Teams"
+      icon : "ti-headphone-alt"
+    - title : "Management Reports"
+      icon : "ti-bar-chart-alt"
+    - title : "Big data and<br> analytics"
+      icon : "ti-bar-chart-alt"
+    - title : "Cloud infrastructure"
+      icon : "ti-cloud-up"
+    - title : "On-prem infrastructure"
+      icon : "ti-cloud-down"
+    - title : "SRE"
+      icon : "ti-stats-up"
+    - title : "Linux Expertise"
+      icon : "ti-linux"
       
+
 ############################### call to action ###############################
 cta:
-  enable: false
+  enable: true
   subtitle : "Voor startende, en enterprise bedrijven"
   title : "Kroescontrol helpt"
   button:

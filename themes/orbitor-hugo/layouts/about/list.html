@@ -94,6 +94,66 @@
 {{ end }}
 <!-- /team -->
 
+<!-- case study -->
+{{ if .Site.Data.about.casestudy.enable }}
+{{ with .Site.Data.about.casestudy }}
+<section class="section case-study">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="case-study-content text-center mb-5">
+          <h2 class="mb-4">{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+
+    {{ range $index, $element := .case }}
+    {{if (modBool $index 2)}}
+    <div class="case-timeline">
+      <div class="case-timeline-divider"></div>
+      <div class="case-timeline-dot"></div>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="case-img">
+            <img src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="case-content">
+            <h4 class="mb-3">{{ .title | markdownify }}</h4>
+            <p>{{ .content | markdownify }}1</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ else }}
+    <div class="case-timeline">
+      <div class="case-timeline-divider"></div>
+      <div class="case-timeline-dot"></div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <div class="case-content">
+            <h4 class="mb-3">{{ .title | markdownify }}</h4>
+            <p>{{ .content | markdownify }}2</p>
+          </div>
+        </div>
+        <div class="col-lg-6  order-1 order-lg-2">
+          <div class="case-img">
+            <img src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /case study -->
+
+
 <!-- clients slider -->
 {{ if .Site.Data.about.clients.enable }}
 {{ with .Site.Data.about.clients }}

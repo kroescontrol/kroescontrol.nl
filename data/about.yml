@@ -47,14 +47,62 @@ team:
       image : "images/team/daniel.jpg"
       designation : "Stagair Strategist"
 
+############################# Case Study ##############################
+casestudy:
+  enable : true
+  title : "Waarom en Visie"
+  content : "There are many variations of lorem passages of Lorem Ipsum available, but the majority have suffered. All the Lorem Ipsum generators."
+  case:
+    # case loop
+    - title : "lala Research"
+      image : "images/mstile-150x150.png"
+      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
+              Commodi voluptas, deleniti distinctio quam totam vitae."
+              
+    # case loop
+    - title : "Making Functional Strategy"
+      image : "images/mstile-150x150.png"
+      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
+              Commodi voluptas, deleniti distinctio quam totam vitae."
+              
+    # case loop
+    - title : "Project Outline"
+      image : "images/mstile-150x150.png"
+      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
+              Commodi voluptas, deleniti distinctio quam totam vitae."
+              
+    # case loop
+    - title : "Final Delivery"
+      image : "images/mstile-150x150.png"
+      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
+              Commodi voluptas, deleniti distinctio quam totam vitae."
+
+
 ################################ Clients #######################################
 clients:
   enable : true
-  title : "Technieken die wij gebruiken"
-  content : "Onderstaand een greep uit de technieken die Kroescontrol veel bij zijn klanten tegen komt."
+  title : "Historie"
+  content : "Onderstaand een greep uit de technieken die Kroescontrol veel bij zijn klanten tegen komt.
+  
+   ## header 
 
-    
+   lala 
+   
+   ## header 
+
+   labela
+
+   ### subheader 
+
+   x 
+
+   ### subheader 
+
+   y
+   "
+
+
 ########################## Testimonial #############################################
 testimonial:
-  enable: true
+  enable: false
   # testimonial content comes from "data/homepage.yml" file.
