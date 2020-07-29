@@ -53,9 +53,17 @@ casestudy:
       content : "Wij zijn gek op (dure) speeltjes! Of het nou een nieuwe dikke laptop is, of een super luid mechanisch toetsenbord. Bij Kroescontrol kan je 
       gebruik maken van een engineersbudget. Hier kies jij zelf jou ideale uitrusting uit!"
 
+# Vacature type Fulltime zien op 'werken' pagina;
+showcareer:
+  enable: true
+
+# Vacature type Stage zien op 'werken' pagina;
+showstagecareer:
+  enable: false
+
 ############################### Service style 2 #########################
 service2:
-  enable : true
+  enable : false
   title : "Vacatures"
   content : "Bekijk hier onze vacatures. Staat jouw droombaan er niet tussen? Stuur gerust een open sollicitatie naar info@kroescontrol.nl"
   serviceItem:
@@ -69,13 +77,13 @@ service2:
       button:
         enable: true
         label: "Bekijk deze vacature"
-        link : "contact"
+ #       link : "contact"
  
    
       
 ############################### call to action ###############################
 cta:
-  enable: false
+  enable: true
   subtitle : "Staat er geen vacature tussen voor jou, maar wil je wel bij ons werken?"
   title : "Open sollicitatie"
   button:
