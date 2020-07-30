@@ -18,6 +18,7 @@ apply_link : "#"
 
 ---
 ### Functieomschrijving
+Tegenwoordig werken steeds meer bedrijven volgens DevOps principes, dit vereist een andere mindset van jou als engineer. Kroescontrol bestaat volledig uit DevOps engineers en wil haar team graag uitbreiden  Om nog meer kennis en ervaring in huis te halen en te ontwikkelen zoeken wij dan ook een engineer die aan de volgende kwalificaties voldoet.
 
 * Een professioneel werk en denkniveau
 * Je hebt ervaring als Dev-Ops engineer.
