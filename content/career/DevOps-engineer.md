@@ -18,24 +18,19 @@ apply_link : "#"
 
 ---
 ### Functieomschrijving
-X
 
-* Een professioneel werk en denkniveau.
-* Een professioneel werk en denkniveau.
-* Een professioneel werk en denkniveau.
-* Een professioneel werk en denkniveau.
-* Een professioneel werk en denkniveau.
-* Een professioneel werk en denkniveau.
-* Een professioneel werk en denkniveau.
+* Een professioneel werk en denkniveau
+* Je hebt ervaring als Dev-Ops engineer.
+* Ervaring met tenminste 1 van de grote 3 public cloud providers.
+* Kennis en ervaring met: Linux, Open-source, Containerization (Docker, Kubernetes), Config management (Anible) Infrastructure as code (Terraform), Infrastructure automation & Ci/CD.
+* Je beschikt over goede soft skills en bent in staat het management te adviseren en ondersteunen. Daarnaast kun je duidelijke, complete documentaties opstellen om zo kennisdeling toe te passen onder de andere engineers.
 
-
-X
 
 **Enkele concrete taken die je waarschijnlijk zult tegenkomen zijn:**
 
-* Migreren van bare-metal naar de DevOps
-* Het beheren van DevOps omgevingen.
-* Het installeren, updaten en configureren van deze omgevingen.
+* Migreren van bare-metal naar de cloud
+* Het functioneren in, en aansturen van DevOps teams.
+* Het installeren, updaten en configureren van cloud omgevingen.
 * Troubleshooting
 * Integreren van CI/CD pipelines
 * Meedenken over de ontwikkeling van IT-oplossingen en processen.
