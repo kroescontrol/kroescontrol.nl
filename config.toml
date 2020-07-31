@@ -107,7 +107,7 @@ enableRobotsTXT = true
 
   [[menu.main]]
   name = "Het verhaal"
-  URL = "about"
+  URL = "hetverhaal"
   weight = 3
 
   [[menu.main]]
@@ -131,7 +131,7 @@ enableRobotsTXT = true
 
   [[menu.footer1]]
   name = "Het verhaal"
-  URL = "about"
+  URL = "hetverhaal"
   weight = 3
 
   [[menu.footer1]]

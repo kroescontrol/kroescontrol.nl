@@ -1,0 +1,108 @@
+############################### Counter #################################
+counter:
+  enable: false
+  title : "Pixel, Passie en Plezier! <br /> Kroescontrol in 3 woorden!"
+####################### Promo video #########################################
+video:
+  enable: false
+  title : "Ambitieus Bedrijf"
+  videoThumb: "images/about/ambitieus.png"
+  videoId: "sXoKSD8QJEA"
+  content : "
+  Kroescontrol is een ambitieus bedrijf met een enthousiaste en informele werksfeer.
+  Wij specialiseren ons in cloud engineering en infrastructure automation. Met onze proactieve houding en automatiseringsmindset gaan wij overal aan de slag met het doel onze eigen inzet zo snel mogelijk te minimaliseren. 
+  
+
+  Een goed systeem onderhoudt immers zichzelf en versterkt de krachten van engineers en eindgebruikers.
+  "
+  button:
+    enable : true
+    label : "Alle Diensten"
+    link : "service"
+
+################################## Team #####################################
+team:
+  enable : true
+  title : Wie zijn wij?
+  content : "Kroescontrol is een ambitieus bedrijf met een enthousiaste en informele werksfeer. Wij specialiseren ons in cloud engineering & infrastructure automation. Met een proactieve houding en automatiseringsmindset gaan wij overal aan de slag met het doel onze eigen inzet zo snel mogelijk te minimaliseren. 
+
+
+  Een goed systeem onderhoudt immers zichzelf en versterkt de krachten van engineers en eindgebruikers.
+
+  Bij Kroescontrol staan de passie voor techniek en plezier voorop, dat kan ook vanwege onze informele werksfeer. Dit blijkt onder andere uit de 80/20 regel, die houdt in dat iedereen 20% van zijn tijd mag gebruiken om de andere 80% leuker te maken. Momenteel zijn wij in die 20% bijvoorbeeld druk bezig met onze passie voor domotica & Tesla’s."
+  
+  teamMember:
+    # team member loop
+    - name : "Serge Kroes"
+      image : "images/team/serge.jpg"
+      designation : "Senior DevOps Engineer & Trainer"
+      
+    # team member loop
+    - name : "Pim Jeursen"
+      image : "images/team/pim.jpg"
+      designation : "Senior Cloud Engineer & Trainer"
+      
+    # team member loop
+    - name : "Daniël Roos"
+      image : "images/team/daniel.jpg"
+      designation : "Stagair Strategist"
+
+############################# Case Study ##############################
+casestudy:
+  enable : true
+  title : "Waarom en Visie"
+  content : "There are many variations of lorem passages of Lorem Ipsum available, but the majority have suffered. All the Lorem Ipsum generators."
+  case:
+    # case loop
+    - title : "lala Research"
+      image : "images/mstile-150x150.png"
+      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
+              Commodi voluptas, deleniti distinctio quam totam vitae."
+              
+    # case loop
+    - title : "Making Functional Strategy"
+      image : "images/mstile-150x150.png"
+      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
+              Commodi voluptas, deleniti distinctio quam totam vitae."
+              
+    # case loop
+    - title : "Project Outline"
+      image : "images/mstile-150x150.png"
+      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
+              Commodi voluptas, deleniti distinctio quam totam vitae."
+              
+    # case loop
+    - title : "Final Delivery"
+      image : "images/mstile-150x150.png"
+      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
+              Commodi voluptas, deleniti distinctio quam totam vitae."
+
+
+################################ Clients #######################################
+clients:
+  enable : true
+  title : "Historie"
+  content : "Onderstaand een greep uit de technieken die Kroescontrol veel bij zijn klanten tegen komt.
+  
+   ## header 
+
+   lala 
+   
+   ## header 
+
+   labela
+
+   ### subheader 
+
+   x 
+
+   ### subheader 
+
+   y
+   "
+
+
+########################## Testimonial #############################################
+testimonial:
+  enable: false
+  # testimonial content comes from "data/homepage.yml" file.
