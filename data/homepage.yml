@@ -78,7 +78,7 @@ project:
 
 ################################ Counter #######################################
 counter:
-  enable : true
+  enable : enable
   #counterItem :
     # counter item loop
     #    - title : "Koffie gedronken"
