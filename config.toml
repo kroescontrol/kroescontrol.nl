@@ -125,35 +125,43 @@ enableRobotsTXT = true
   ###
 
   [[menu.footer1]]
-  name = "Werken bij"
-  URL = "werken"
+  name = "Onze Expertise"
+  URL = "service"
   weight = 1
 
   [[menu.footer1]]
-  name = "Over Ons"
+  name = "Het verhaal"
   URL = "about"
-  weight = 2
+  weight = 3
+
+  [[menu.footer1]]
+  name = "Werken bij"
+  URL = "werken"
+  weight = 4
 
   [[menu.footer1]]
   name = "Vacatures"
   URL = "career"
-  weight = 3
+  weight = 8
 
   ###
   ### footer rechts
   ###
 
-  # footer menu 2
-  [[menu.footer2]]
-  name = "Onze Expertise"
-  URL = "service"
-  weight = 3
-
   [[menu.footer2]]
   name = "Contact"
   URL = "contact"
-  weight = 5
-  
+  weight = 6
+
+  [[menu.footer2]]
+  name = "Algemene Voorwaarden"
+  URL = "voorwaarden/algemene-voorwaarden"
+  weight = 7
+
+  [[menu.footer2]]
+  name = "Privacybeleid"
+  URL = "voorwaarden/privacybeleid"
+  weight = 8
  
 #################### default parameters ################################
 [params]
