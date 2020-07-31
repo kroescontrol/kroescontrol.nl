@@ -62,47 +62,28 @@ enableRobotsTXT = true
   URL = "https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
 
   
+
+
+
 ############################## navigation ###############################
 [menu]
 
-  ###
-  ### professionals
-  ###
+  # menu en submenu
 
-  [[menu.main]]
-  weight = 3
-  name = "Over ons"
-  URL = "about"
-  hasChildren = true
-
-    [[menu.main]]
-    parent = "Over ons"
-    name = "Vacatures"
-    URL = "career"
-    weight = 2
-
-    [[menu.main]]
-    parent = "Over ons"
-    name = "Het verhaal"
-    URL = "about"
-    weight = 4
-
-    [[menu.main]]
-    parent = "Over ons"
-    name = "Werken Bij"
-    URL = "werken"
-    weight = 3
+  #[[menu.main]]
+  #name = "DRAFT"
+  #hasChildren = true
 
     # draft
     #[[menu.main]]
-    #parent = "Over ons"
+    #parent = "DRAFT"
     #name = "sollicitatieproces"
     #URL = "jouw-carriere/sollicitatieproces"
     #weight = 7
 
     # draft
     #[[menu.main]]
-    #parent = "Over ons"
+    #parent = "DRAFT"
     #name = "carrièrepad"
     #URL = "jouw-carriere/carrièrepad"
     #weight = 8
@@ -110,26 +91,34 @@ enableRobotsTXT = true
 
     # draft
     #[[menu.main]]
-    #parent = "Over ons"
+    #parent = "DRAFT"
     #name = "arbeidsvoorwaarden"
     #URL = "jouw-carriere/arbeidsvoorwaarden"
     #weight = 9
-  
+
   ###
   ### Onze diensten
   ###
 
- 
-
   [[menu.main]]
   name = "Onze Expertise"
   URL = "service"
+  weight = 2
+
+  [[menu.main]]
+  name = "Het verhaal"
+  URL = "about"
   weight = 3
+
+  [[menu.main]]
+  name = "Werken Bij"
+  URL = "werken"
+  weight = 4
 
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 4
+  weight = 5
 
   ###
   ### footer links
@@ -156,7 +145,7 @@ enableRobotsTXT = true
 
   # footer menu 2
   [[menu.footer2]]
-  name = "Onze Diensten"
+  name = "Onze Expertise"
   URL = "service"
   weight = 3
 
@@ -165,7 +154,7 @@ enableRobotsTXT = true
   URL = "contact"
   weight = 5
   
-  
+ 
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"

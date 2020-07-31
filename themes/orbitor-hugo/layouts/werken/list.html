@@ -2,6 +2,67 @@
 
 {{ partial "page-title.html" . }}
 
+
+{{ if .Site.Data.werken.showcareer.enable }}
+<!-- career items -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Vacatures{{ i18n "our_works"}}</h2>
+      </div>
+ 
+      <!-- this section is populated by pulling posts from the site -->
+      {{ range (where .Site.Pages "Section" "career") }} 
+      {{ if in .Params.job_type "Fulltime" }}
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card rounded-0 text-center hover-bg-secondary">
+          {{ with .Params.Image }}
+          <img src="{{ .| absURL }}" class="img-fluid align-self-center w-auto pt-4">
+          {{ end }}
+          <div class="card-body">
+            <h4 class="card-title"><a href="{{.Permalink}}" >{{ .Title | markdownify }}</a></h4>
+            <p class="card-text"><a href="{{.Permalink}}" >{{ .Description }}</a></p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ if .Site.Data.werken.showstagecareer.enable }}
+<!-- career items -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Stage plekken{{ i18n "our_works"}}</h2>
+      </div>
+ 
+      <!-- this section is populated by pulling posts from the site -->
+      {{ range (where .Site.Pages "Section" "career") }} 
+      {{ if in .Params.job_type "Stage" }}
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="card rounded-0 text-center hover-bg-secondary">
+          {{ with .Params.Image }}
+          <img src="{{ .| absURL }}" class="img-fluid align-self-center w-auto pt-4">
+          {{ end }}
+          <div class="card-body">
+            <h4 class="card-title"><a href="{{.Permalink}}" >{{ .Title | markdownify }}</a></h4>
+            <p class="card-text"><a href="{{.Permalink}}" >{{ .Description }}</a></p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+</section>
+{{ end }}
+
 <!-- service style 1 -->
 {{ if .Site.Data.werken.service1.enable }}
 {{ with .Site.Data.werken.service1 }}
@@ -137,63 +198,6 @@
 {{ end }}
 {{ end }}
 <!-- /service style 2 -->
-
-{{ if .Site.Data.werken.showcareer.enable }}
-<!-- career items -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Vacatures{{ i18n "our_works"}}</h2>
-      </div>
- 
-      <!-- this section is populated by pulling posts from the site -->
-      {{ range (where .Site.Pages "Section" "career") }} 
-      {{ if in .Params.job_type "Fulltime" }}
-
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card rounded-0 text-center hover-bg-secondary">
-          {{ with .Params.Image }}
-          <img src="{{ .| absURL }}" class="img-fluid align-self-center w-auto pt-4">
-          {{ end }}
-          <div class="card-body">
-            <h4 class="card-title"><a href="{{.Permalink}}" >{{ .Title | markdownify }}</a></h4>
-            <p class="card-text"><a href="{{.Permalink}}" >{{ .Description }}</a></p>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-{{ end }}
-
-{{ if .Site.Data.werken.showstagecareer.enable }}
-<!-- career items -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Stage plekken{{ i18n "our_works"}}</h2>
-      </div>
- 
-      <!-- this section is populated by pulling posts from the site -->
-      {{ range (where .Site.Pages "Section" "career") }} 
-      {{ if in .Params.job_type "Stage" }}
-
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card rounded-0 text-center hover-bg-secondary">
-          {{ with .Params.Image }}
-          <img src="{{ .| absURL }}" class="img-fluid align-self-center w-auto pt-4">
-          {{ end }}
-          <div class="card-body">
-            <h4 class="card-title"><a href="{{.Permalink}}" >{{ .Title | markdownify }}</a></h4>
-            <p class="card-text"><a href="{{.Permalink}}" >{{ .Description }}</a></p>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-{{ end }}
-
 
 <!-- call to action -->
 {{ if .Site.Data.werken.cta.enable }}
