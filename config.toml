@@ -102,7 +102,7 @@ enableRobotsTXT = true
 
   [[menu.main]]
   name = "Onze Expertise"
-  URL = "service"
+  URL = "expertise"
   weight = 2
 
   [[menu.main]]
@@ -126,7 +126,7 @@ enableRobotsTXT = true
 
   [[menu.footer1]]
   name = "Onze Expertise"
-  URL = "service"
+  URL = "expertise"
   weight = 1
 
   [[menu.footer1]]

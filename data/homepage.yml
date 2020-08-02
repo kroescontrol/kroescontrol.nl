@@ -9,7 +9,7 @@ banner:
   button:
     enable : true
     label : "Meer informatie"
-    link : "service"
+    link : "expertise"
 
 
 ########################### Banner feature ################################

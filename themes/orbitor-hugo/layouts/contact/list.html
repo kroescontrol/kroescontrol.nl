@@ -5,6 +5,41 @@
 <!-- contact form start -->
 <section class="contact-form-wrap section">
   <div class="container">
+
+    {{ if .Site.Data.contact.branch.enable }}
+    {{ with .Site.Data.contact.branch }}
+    <div class="row">
+      {{ range .branchOffice }}
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-info">
+          <h4 class="mb-4">{{ .title | markdownify }}</h4>
+          <ul class="address-block list-unstyled">
+            {{ range .info }}
+            <li><i class="{{ .icon }} mr-3"></i>{{ .label }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+    {{ with .Site.Data.contact.branch }}
+      {{ range .algemeen }}
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-info">
+          <h4 class="mb-4">{{ .title | markdownify }}</h4>
+          <ul class="address-block list-unstyled">
+            {{ range .info }}
+            <li><i class="{{ .icon }} mr-3"></i>{{ .label }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+
+    <br><br>
     {{ if .Site.Data.contact.contact.enable }}
     <div class="row">
       {{ with .Site.Data.contact.contact }}
@@ -98,24 +133,7 @@
     </div>
     {{ end }}
 
-    {{ if .Site.Data.contact.branch.enable }}
-    {{ with .Site.Data.contact.branch }}
-    <div class="row">
-      {{ range .branchOffice }}
-      <div class="col-lg-4 col-md-6">
-        <div class="contact-info">
-          <h4 class="mb-4">{{ .title | markdownify }}</h4>
-          <ul class="address-block list-unstyled">
-            {{ range .info }}
-            <li><i class="{{ .icon }} mr-3"></i>{{ .label }}</li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-    {{ end }}
-    {{ end }}
+    <br><br>
   </div>
 </section>
 

@@ -18,20 +18,39 @@ map:
   # map data comes from "config.toml" file
 
 ############################ branch ###############################
+ # here we use themify icon pack : https://themify.me/themify-icons
 branch:
   enable : true
+  algemeen:
+    - title : "Bedrijfsgegevens"
+      info:
+        - label : "Zonnehorst 5"
+          icon : "ti-id-badge"
+        - label : "7207BT Zutphen"
+          icon : "ti-id-badge"
+        - label : "KvK: 11111111"
+          icon : "ti-id-badge"
+        - label : "BTW: NL100991245B03"
+          icon : "ti-id-badge"
+        - label : "IBAN XXnlXX XXXXXXXXXXX"
+          icon : "ti-folder"
+        - label : "IBAN XXnlXX XXXXXXXXXXX"
+          icon : "ti-folder"
   branchOffice:
-    # branch office loop
-    - title : "Bezoekadres:"
+    - title : "E-mailadressen"
       info:
         # branch information loop
-        - label : "Zonnehorst 5, 7207BT Zutphen"
-          icon : "ti-location-pin" # here we use themify icon pack : https://themify.me/themify-icons
+        - label : "Algemene vragen of opmerkingen"
+          icon : "ti-user"
+        - label : "info@kroescontrol.nl"
+          icon : "ti-email"
+        - label : "Vragen over tarieven en bestellingen"
+          icon : "ti-user"
+        - label : "sales@kroescontrol.nl"
+          icon : "ti-email"
+        - label : "Technische ondersteuning"
+          icon : "ti-user"
+        - label : "support@kroescontrol.nl"
+          icon : "ti-email"
           
-        # branch information loop
-        - label : "Email: info@kroescontrol.nl"
-          icon : "ti-email" # here we use themify icon pack : https://themify.me/themify-icons
           
-        # branch information loop
-        - label : "Phone:+31 63411 6494"
-          icon : "ti-mobile" # here we use themify icon pack : https://themify.me/themify-icons

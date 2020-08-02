@@ -4,7 +4,7 @@
 
 <!-- service style 1 -->
 {{ if .Site.Data.service.service1.enable }}
-{{ with .Site.Data.service.service1 }}
+{{ with .Site.Data.expertise.service1 }}
 <section class="section service-2">
   <div class="container">
     {{ $.Scratch.Set "counter" 0 }}
@@ -51,8 +51,8 @@
 <!-- /service style 1 -->
 
 <!-- case study -->
-{{ if .Site.Data.service.casestudy.enable }}
-{{ with .Site.Data.service.casestudy }}
+{{ if .Site.Data.expertise.casestudy.enable }}
+{{ with .Site.Data.expertise.casestudy }}
 <section class="section case-study">
   <div class="container">
     <div class="row justify-content-center">
@@ -110,8 +110,8 @@
 <!-- /case study -->
 
 <!-- service style 2 -->
-{{ if .Site.Data.service.service2.enable }}
-{{ with .Site.Data.service.service2 }}
+{{ if .Site.Data.expertise.service2.enable }}
+{{ with .Site.Data.expertise.service2 }}
 <section class="section service">
   <div class="container">
     <div class="row">
@@ -139,8 +139,8 @@
 <!-- /service style 2 -->
 
 <!-- call to action -->
-{{ if .Site.Data.service.cta.enable }}
-{{ with .Site.Data.service.cta }}
+{{ if .Site.Data.expertise.cta.enable }}
+{{ with .Site.Data.expertise.cta }}
 <section class="cta-2 bg-light">
   <div class="container">
     <div class="cta-block py-5">

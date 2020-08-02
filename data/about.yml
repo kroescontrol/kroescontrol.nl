@@ -18,7 +18,7 @@ video:
   button:
     enable : true
     label : "Alle Diensten"
-    link : "service"
+    link : "expertise"
 
 ################################## Team #####################################
 team:

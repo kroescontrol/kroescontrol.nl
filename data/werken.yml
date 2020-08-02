@@ -4,21 +4,21 @@ service1:
   serviceItem:
     # service item loop
     - title : "Blaat test"
-      image : "images/service/service-1.jpg"
+      image : "images/expertise/service-1.jpg"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptatum, nobis quos dolores reiciendis
             unde. Est obcaecati aspernatur pariatur aliquid quos repellendus, amet architecto similique, cumque nisi
             earum, culpa, ipsa!"
             
     # service item loop
     - title : "Software Maintenance"
-      image : "images/service/service-3.jpg"
+      image : "images/expertise/service-3.jpg"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptatum, nobis quos dolores reiciendis
             unde. Est obcaecati aspernatur pariatur aliquid quos repellendus, amet architecto similique, cumque nisi
             earum, culpa, ipsa!"
             
     # service item loop
     - title : "Web App Development"
-      image : "images/service/service-4.jpg"
+      image : "images/expertise/service-4.jpg"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptatum, nobis quos dolores reiciendis
             unde. Est obcaecati aspernatur pariatur aliquid quos repellendus, amet architecto similique, cumque nisi
             earum, culpa, ipsa!"

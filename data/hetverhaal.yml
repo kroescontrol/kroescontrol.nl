@@ -4,7 +4,7 @@ counter:
   title : "Pixel, Passie en Plezier! <br /> Kroescontrol in 3 woorden!"
 ####################### Promo video #########################################
 video:
-  enable: false
+  enable: true
   title : "Ambitieus Bedrijf"
   videoThumb: "images/about/ambitieus.png"
   videoId: "sXoKSD8QJEA"
@@ -16,9 +16,9 @@ video:
   Een goed systeem onderhoudt immers zichzelf en versterkt de krachten van engineers en eindgebruikers.
   "
   button:
-    enable : true
+    enable : false
     label : "Alle Diensten"
-    link : "service"
+    link : "expertise"
 
 ################################## Team #####################################
 team:
