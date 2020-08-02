@@ -2,11 +2,8 @@
 ### redirects from old site
 ###
 
-# Redirect with a 301
-/home         /              301
-
 # Redirect with a 302
-/service      /expertise     301
+/service/*    /expertise     301
 
 /portfolio/*  /expertise     301
 
@@ -14,6 +11,7 @@
 ### 404
 ###
 
+/* 404.html 404
 #/en/* /en/404.html 404
 #/de/* /de/404.html 404
 
