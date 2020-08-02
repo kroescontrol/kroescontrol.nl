@@ -6,7 +6,9 @@
 /home         /              301
 
 # Redirect with a 302
-/service      /expertise     302
+/service      /expertise     301
+
+/portfolio/*  /expertise     301
 
 ###
 ### 404
