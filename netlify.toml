@@ -1,0 +1,13 @@
+[[redirects]]
+  from = "/service"
+  to = "/expertise"
+  status = 301
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/about"
+  to = "/hetverhaal"
+  status = 301
+  force = true
+  headers = {X-From = "Netlify"}
