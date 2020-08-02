@@ -1,0 +1,9 @@
+########################### Call to action #####################################
+banner:
+  enable: true
+  title : "Oops"
+  content : "De pagina die je zoekt bestaat helaas niet"
+  button:
+    enable: false
+    label : "Contact"
+    link : "contact"
