@@ -19,6 +19,12 @@
 ### test
 ###
 
+# https://docs.netlify.com/routing/redirects/redirect-options/#http-status-codes
+
+# An asterisk indicates a splat that will match anything that follows it.
+# This would redirect paths like /news/2004/01/10/my-story to /blog/2004/01/10/my-story.
+# /news/*  /blog/:splat
+
 # Show a custom 404 for this path
 #/ecommerce    /store-closed  404
 
