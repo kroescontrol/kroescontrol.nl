@@ -174,11 +174,6 @@ author = "Kroescontrol"
 # Cookie
 cookie = true
 expireDay = 7
-# google map
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "52.111710"
-mapLongitude = "6.220770"
-mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "UA-163824714-1"
 # copyright
@@ -211,7 +206,12 @@ copyright = "&copy; Copyright Kroescontrol 2020"
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/kroescontrol"
 
+###
 
+[[params.social]]
+icon = "ti-linkedin"
+name = "LinkedIn"
+link = "https://www.linkedin.com/company/kroescontrol"
 
 ############################# post share links ######################
 [[params.postShare]]

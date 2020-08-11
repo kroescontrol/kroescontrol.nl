@@ -22,24 +22,23 @@ map:
 branch:
   enable : true
   algemeen:
-    - title : "Bedrijfsgegevens"
+    - title : "Algemeen"
       info:
         - label : "Zonnehorst 5"
           icon : "ti-id-badge"
         - label : "7207BT Zutphen"
           icon : "ti-id-badge"
-        - label : "KvK: 11111111"
+        - label : "KvK: 60242841"
           icon : "ti-id-badge"
         - label : "BTW: NL100991245B03"
           icon : "ti-id-badge"
-        - label : "IBAN XXnlXX XXXXXXXXXXX"
+        - label : "BIC: BUNQNL2AXXX"
           icon : "ti-folder"
-        - label : "IBAN XXnlXX XXXXXXXXXXX"
+        - label : "IBAN: NL93BUNQ 2208430468 "
           icon : "ti-folder"
   branchOffice:
     - title : "E-mailadressen"
       info:
-        # branch information loop
         - label : "Algemene vragen of opmerkingen"
           icon : "ti-user"
         - label : "info@kroescontrol.nl"

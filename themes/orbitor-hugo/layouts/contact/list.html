@@ -109,25 +109,12 @@
               <ul class="social-icons list-inline mt-5">
                 {{ range .Site.Params.social }}
                 <li class="list-inline-item">
-                  <a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+                  <a href="{{ .link | safeURL }}" title="{{ .name }}"><i class="{{ .icon }}"></i></a>
                 </li>
                 {{ end }}
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-
-    {{ if .Site.Data.contact.map.enable }}
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="google-map mt-90 mb-5">
-          <div id="map"
-          data-latitude="{{ with .Site.Params.mapLatitude }} {{ . }} {{ end }}"
-          data-longitude="{{ with .Site.Params.mapLongitude }} {{ . }} {{ end }}"
-          data-marker="{{ with .Site.Params.mapMarker }} {{ . | absURL }} {{ end }}"></div>
         </div>
       </div>
     </div>
