@@ -27,35 +27,26 @@ service1:
       Nieuwsgierig naar de mogelijkehden voor uw organisatie? Neem dan snel contact op! "
 
 
+
+
 ############################# Case Study ##############################
 casestudy:
   enable : true
-  title : "Wat doen wij"
-  content : "There are many variations of lorem passages of Lorem Ipsum available, but the majority have suffered. All the Lorem Ipsum generators."
+  title : "Advies en krachtige implementaties"
+  content : "De diensten die wij leveren en de oplossingen die wij voor onze klanten realiseren en onderhouden leiden tot"
   case:
-    # case loop
-    - title : "Competitor Research"
+    - title : "Sneller schakelen"
       image : "images/mstile-150x150.png"
       content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
               Commodi voluptas, deleniti distinctio quam totam vitae."
-              
-    # case loop
-    - title : "Making Functional Strategy"
+    - title : "Prettiger werken"
       image : "images/mstile-150x150.png"
-      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
-              Commodi voluptas, deleniti distinctio quam totam vitae."
-              
-    # case loop
-    - title : "Project Outline"
+      content : "Nx"
+    - title : "Beter resultaat"
       image : "images/mstile-150x150.png"
-      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
-              Commodi voluptas, deleniti distinctio quam totam vitae."
-              
-    # case loop
-    - title : "Final Delivery"
-      image : "images/mstile-150x150.png"
-      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
-              Commodi voluptas, deleniti distinctio quam totam vitae."
+      content : "x"
+
+
 
 ############################### Service style 2 #########################
 # here we use themify icon pack : https://themify.me/themify-icons
