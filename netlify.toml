@@ -1,3 +1,11 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.74.3"
+HUGO_ENABLEGITINFO = "true"
+
 [[redirects]]
   from = "/service"
   to = "/expertise"
