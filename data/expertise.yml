@@ -31,7 +31,7 @@ service1:
 
 ############################# Case Study ##############################
 casestudy:
-  enable : true
+  enable : false
   title : "Advies en krachtige implementaties"
   content : "De diensten die wij leveren en de oplossingen die wij voor onze klanten realiseren en onderhouden leiden tot"
   case:

@@ -1,10 +1,10 @@
 ############################### Counter #################################
 counter:
-  enable: false
+  enable: true
   title : "Pixel, Passie en Plezier! <br /> Kroescontrol in 3 woorden!"
 ####################### Promo video #########################################
 video:
-  enable: true
+  enable: false
   title : "Ambitieus Bedrijf"
   videoThumb: "images/about/ambitieus.png"
   videoId: "sXoKSD8QJEA"
@@ -57,28 +57,15 @@ casestudy:
     - title : "Ontstaan & Visie"
       image : "images/mstile-150x150.png"
       content : "Na een succesvolle onderneming in de horeca gehad te hebben en jaren in de IT-werkzaam te zijn geweest kwam het idee voor Kroescontrol bij Serge Kroes op. Het viel hem op dat leuke groepen zelfs saai werk uitdagend kunnen maken. Door een bedrijf op te richten met bovegenmiddelde arbeidsvoowaarden en de passie voor techniek als belangrijkste aannamecriterium wilde hij zo'n groep tot stand brengen. Na enkele jaren als freelancer actief te zijn geweest is Serge in 2019 echt actief met deze droom aan de slag te gaan. Zodoende werd Kroescontrol in 2019 twee man sterker en zet deze groei zich door in 2020."
-              
+
     # case loop
     - title : "Missie"
       image : "images/mstile-150x150.png"
       content : "Er is altijd ruimte voor verbetering, ook in de detacheringsmarkt. Toen Serge begon de detacheringsmarkt verbaasde hij zich al vrij snel over de grote inkomensverschillen tussen daadwerkelijke engineers die al het werk leveren en het management. In eigen woorden is het niet fair om iemand met een uurtarief van 150 euro in een VW Polo te laten rondrijden. Met Kroescontrol wil hij onder andere dit probleem aanpakken. Iedereen verdient een eerlijk deel van de beloning."
-              
-    # case loop
-    - title : "Project Outline"
-      image : "images/mstile-150x150.png"
-      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
-              Commodi voluptas, deleniti distinctio quam totam vitae."
-              
-    # case loop
-    - title : "Final Delivery"
-      image : "images/mstile-150x150.png"
-      content : "Nihil fugit officia esse vero, animi tenetur ullam, dolor aperiam minus aliquid enim laudantium fuga!
-              Commodi voluptas, deleniti distinctio quam totam vitae."
-
 
 ################################ Clients #######################################
 clients:
-  enable : true
+  enable : false
   title : "Historie"
   content : "Onderstaand een greep uit de technieken die Kroescontrol veel bij zijn klanten tegen komt.
   
