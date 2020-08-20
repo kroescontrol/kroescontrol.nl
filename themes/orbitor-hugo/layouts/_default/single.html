@@ -25,9 +25,6 @@
                 </div>
                 <div class="tag-option mt-5 clearfix">
                   <ul class="float-left list-inline">
-                    {{ range .Params.Tags }}
-                    <li class="list-inline-item"><a href="{{ "tags/" | absURL }}{{ . | lower }}" rel="tag">{{ . }} /</a></li>
-                    {{ end }}
                   </ul>
 
                   <ul class="float-right list-inline">
