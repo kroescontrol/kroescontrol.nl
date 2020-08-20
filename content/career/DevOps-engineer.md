@@ -4,7 +4,7 @@ date: 2020-07-14T09:51:57+06:00
 # page title background image
 image: "images/backgrounds/about2.jpg"
 # meta description
-description : "beschrijving van DevOps rol"
+description : "Op zoek naar een nieuwe IT baan? Bekijk de vacature Cloud engineer van Kroescontrol. Bekijk welke vacatures er open staan en solliciteer direct!"
 # company logo
 image : "images/beeldmerk/Kroescontrol-beeldmerk-kleur.png"
 # location
