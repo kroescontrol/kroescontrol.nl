@@ -1,6 +1,6 @@
 ---
 title: "Sollicitatieproces"
-date: 2020-07-09T15:24:04+06:00
+date: 2020-08-19T11:51:57+00:00
 description: "De sollicitatieprocedure bij Kroescontrol"
 bgImage: "images/bg/section-bg5.jpg"
 image: "images/bg/bg-6.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "Cookiebeleid"
-date: 2020-07-07T15:24:04+06:00
+date: 2020-08-19T11:51:57+00:00
 draft: true
 description: "Cookiebeleid Kroescontrol"
 bgImage: "#"
