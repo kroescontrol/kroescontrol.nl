@@ -1,0 +1,33 @@
+###
+### redirects from old site
+###
+
+# Redirect with a 302
+/service/*    /expertise     301
+
+/portfolio/*  /expertise     301
+
+###
+### 404
+###
+
+/ 404.html 404
+
+#/en/* /en/404.html 404
+#/de/* /de/404.html 404
+
+###
+### test
+###
+
+# https://docs.netlify.com/routing/redirects/redirect-options/#http-status-codes
+
+# An asterisk indicates a splat that will match anything that follows it.
+# This would redirect paths like /news/2004/01/10/my-story to /blog/2004/01/10/my-story.
+# /news/*  /blog/:splat
+
+# Show a custom 404 for this path
+#/ecommerce    /store-closed  404
+
+# Rewrite a path
+#/pass-through /index.html    200

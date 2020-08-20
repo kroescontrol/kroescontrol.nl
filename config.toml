@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://kroescontrol.nl"
+baseurl = "/"
 title = "Kroescontrol | IT & More"
-theme = "redlab-hugo"
+theme = "orbitor-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -11,189 +11,218 @@ disqusShortname = "kroescontrol" # get your shortname form here : https://disqus
 
 enableRobotsTXT = true
 
-# language
-
-# engels aan of juist uitzetten;
-#disableLanguages = ["en"] # disable language from here
-#disableLanguages = []     # enable all
-disableLanguages = ["en"]
-
-# set default language
-defaultContentLanguage = "nl"
-
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "AMP", "RSS", "JSON"]
 
 ############################# Plugins ##############################
+[params.plugins]
 
-# CSS Plugins
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify/css/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/magnific-popup/dist/magnific-popup.css"
+  [[params.plugins.css]]
+  URL = "plugins/modal-video/modal-video.css"
+  [[params.plugins.css]]
+  URL = "plugins/animate-css/animate.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick-carousel/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick-carousel/slick/slick-theme.css"
 
-# JS Plugins
-[[params.plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/match-height/jquery.matchHeight-min.js"
-[[params.plugins.js]]
-link = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-link = "plugins/magnific-popup/jquery.magnific.popup.min.js"
-[[params.plugins.js]]
-link = "plugins/search/fuse.min.js"
-[[params.plugins.js]]
-link = "plugins/search/mark.js"
-[[params.plugins.js]]
-link = "plugins/search/search.js"
-#[[params.plugins.js]]
-#link = "plugins/google-map/gmap.js"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/js/popper.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/magnific-popup/dist/jquery.magnific-popup.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick-carousel/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/counterup/jquery.waypoints.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/counterup/jquery.counterup.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/modal-video/modal-video.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+  [[params.plugins.js]]
+  URL = "plugins/google-map/map.js"
+  [[params.plugins.js]]
+  URL = "https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
+
+  
+
+
 
 ############################## navigation ###############################
-# main menu
-[[menu.main]]
-name = "Over ons"
-URL = "about"
-weight = 1
+[menu]
 
-[[menu.main]]
-name = "Service & Diensten"
-URL = "portfolio"
-weight = 2
+  # menu en submenu
 
-[[menu.main]]
-  name = "Werken bij"
-  URL = "career"
+  #[[menu.main]]
+  #name = "DRAFT"
+  #hasChildren = true
+
+    # draft
+    #[[menu.main]]
+    #parent = "DRAFT"
+    #name = "sollicitatieproces"
+    #URL = "jouw-carriere/sollicitatieproces"
+    #weight = 7
+
+    # draft
+    #[[menu.main]]
+    #parent = "DRAFT"
+    #name = "carrièrepad"
+    #URL = "jouw-carriere/carrièrepad"
+    #weight = 8
+
+
+    # draft
+    #[[menu.main]]
+    #parent = "DRAFT"
+    #name = "arbeidsvoorwaarden"
+    #URL = "jouw-carriere/arbeidsvoorwaarden"
+    #weight = 9
+
+  ###
+  ### Onze diensten
+  ###
+
+  [[menu.main]]
+  name = "Onze Expertise"
+  URL = "expertise"
+  weight = 2
+
+  [[menu.main]]
+  name = "Het verhaal"
+  URL = "hetverhaal"
   weight = 3
-  
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 4
 
-# footer menu
-[[menu.footer]]
-name = "Privacy Policy"
-URL = "https://docs.google.com/document/d/11uFOgE6UmMAwaz97sSRBZzEEQ5R0L7YjoJtmzuJc6ts/edit?usp=sharing"
-weight = 1
+  [[menu.main]]
+  name = "Werken Bij"
+  URL = "werken"
+  weight = 4
 
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 5
+
+  ###
+  ### footer links
+  ###
+
+  [[menu.footer1]]
+  name = "Onze Expertise"
+  URL = "expertise"
+  weight = 1
+
+  [[menu.footer1]]
+  name = "Het verhaal"
+  URL = "hetverhaal"
+  weight = 3
+
+  [[menu.footer1]]
+  name = "Werken bij"
+  URL = "werken"
+  weight = 4
+
+  [[menu.footer1]]
+  name = "Vacatures"
+  URL = "career"
+  weight = 8
+
+  ###
+  ### footer rechts
+  ###
+
+  [[menu.footer2]]
+  name = "Contact"
+  URL = "contact"
+  weight = 6
+
+  [[menu.footer2]]
+  name = "Algemene Voorwaarden"
+  URL = "voorwaarden/algemene-voorwaarden"
+  weight = 7
+
+  [[menu.footer2]]
+  name = "Privacybeleid"
+  URL = "voorwaarden/privacybeleid"
+  weight = 8
+ 
 #################### default parameters ################################
 [params]
-logo = "logo/KC-logo-gradientBW_small.png"
-
+logo = "images/logo.png"
+logoAlt = "images/logo-w.png"
 home = "Home"
 # Meta data
-description = "Kroescontrol is hét adres voor ervaren en professionele cloud engineers."
+description = "This is meta description"
 author = "Kroescontrol"
-# contact info
-address = "Zonnehorst 5, 7207BT Zutphen"
-mobile = "+31634116494"
-email = "info@kroescontrol.nl"
-# contact form action
-contact_form_action = "https://formspree.io/xvoblnaa" # contact form works with https://formspree.io
+# Cookie
+cookie = true
+expireDay = 7
 # Google Analitycs
-google_analitycs_id = "UA-163824714-1" # your id
-# searchbar
-search = false
+googleAnalitycsID = "UA-163824714-1"
+# copyright
+copyright = "&copy; Copyright Kroescontrol 2020"
+  # Preloader
+  [params.preloader]
+  enable = false
 
-# Preloader
-[params.preloader]
-enable = false
-preloader = "/images/loading.gif" # use jpg, png, svg or gif format.
+  # Navigation button
+  [params.navBtn]
+  enable = false
+  label = "Get an estimate"
+  link = "contact"
 
-# Navigation button s 
-[params.navigation_button]
-enable = false
-label = "LinkedIn"
+############################# Footer ##############################
+
+  # footer about
+  [params.footer.about]
+  title = "Kroescontrol"
+  content = "Pixels, passie & plezier. Kroescontrol in 3 woorden!"
+
+  # contact info
+  [params.contact]
+  mobile = "+31634116494"
+  email = "info@kroescontrol.nl"
+  location = "Zonnehorst 5, 7207BT Zutphen"
+
+################################# Social icon #######################
+[[params.postShare]]
+icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/kroescontrol"
 
-# google map
-[params.map]
-enable = false
-#gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-#map_latitude = "51.5223477"
-#map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
+###
 
-#Open Street Maps
-  [params.geo]
-  enable = true
-  title = "Kroescontrol, Zutphen"
-  width = "100%"
-  height = 400.0
-  pre_embed = "https://www.openstreetmap.org/export/embed.html?bbox=6.218991279602051%2C52.10989047128786%2C6.22253179550171%2C52.11121650868953&amp;layer=mapnik"
-  embed = "bbox=9.363741874694826%2C51.97525849656705%2C9.38659429550171%2C51.99197609916384&amp;layer=mapnik&amp;"
-  map_big = "mlat=51.9836&amp;mlon=9.3752#map=16/51.9836/9.3752"
-  map_big_text = "Grotere kaart bekijken"
-
-###################### Clients logo slider ###############################
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-1.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-2.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-3.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-4.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-5.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-1.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-2.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-3.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-4.png"
-
-[[params.clients_logo]]
-logo = "images/clients-logo/clients-logo-5.png"
-
-############################# social icon #################################
-# themify icon pack : https://themify.me/themify-icons
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-linkedin"
+name = "LinkedIn"
 link = "https://www.linkedin.com/company/kroescontrol"
 
+############################# post share links ######################
+[[params.postShare]]
+icon = "ti-facebook"
+link = "#"
 
+[[params.postShare]]
+icon = "ti-twitter-alt"
+link = "#"
 
-################################### English language #####################################
-[Languages.nl]
-languageName = "NL"
-languageCode = "nl-nl"
-contentDir = "content/dutch"
-weight = 1
-home = "Home"
-# footer content
-footer_content = "Pixels, passie & plezier. Kroescontrol in 3 woorden!"
+[[params.postShare]]
+icon = "ti-linkedin"
+link = "#"
 
-################################### English language #####################################
-[Languages.en]
-languageName = "EN"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 2
-home = "Home"
-# footer content
-footer_content = "EN Footer"
-
-[sitemap]
-ChangeFreq = "daily"
-Priority = "1"

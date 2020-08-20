@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<!-- Slider -->
+{{ if .Site.Data.error.banner.enable }}
+{{ with .Site.Data.error.banner }}
+<section class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="block">
+          <span class="text-uppercase text-sm letter-spacing">{{ .subtitle | markdownify }}</span>
+          <h1 class="mb-3 mt-3">{{ .title | markdownify }}</h1>
+          <p class="mb-5">{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-main">{{ .label }} <i class="ti-angle-right ml-2"></i></a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /Slider -->
+
+{{ end }}
