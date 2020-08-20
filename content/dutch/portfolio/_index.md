@@ -1,7 +1,0 @@
----
-title: Service & Diensten
-draft: false
-# page title background image
-bg_image: "images/backgrounds/portfolio-page.jpg"
-description : "Waarmee kunnen wij u van dienst zijn? Detachering, trainingen en/of managed services?"
----
