@@ -7,6 +7,6 @@ bgImage: "#"
 image : "#"
 ---
 
-Kroescontrol hanteert de algemene voorwaarden zoals deze zijn opgesteld door de branchevereniging NLdigital. Op al onze aanbiedingen en overeenkomsten zijn daarom deze Nederland ICT Voorwaarden uit 2014 van toepassing. 
+Kroescontrol hanteert de algemene voorwaarden zoals deze zijn opgesteld door de branchevereniging Nederland ICT. Op al onze aanbiedingen en overeenkomsten zijn de ICT~Office Voorwaarden van toepassing. De ICT~Office Voorwaarden zijn gedeponeerd bij de Kamer van Koophandel Midden-Nederland onder nummer 30174840.
 
-De Nederland ICT voorwaarden kunt u [hier](https://drive.google.com/file/d/1P-8xtL5iQwqGSfmMcwSSOWlm8lbyj6WH/view?usp=sharing) bekijken.
+De ICT~Office Voorwaarden kunt u [hier](https://drive.google.com/file/d/1P-8xtL5iQwqGSfmMcwSSOWlm8lbyj6WH/view?usp=sharing) bekijken.
