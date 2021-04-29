@@ -62,7 +62,8 @@ enableRobotsTXT = true
   URL = "https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
 
   
-
+# https://djangocas.dev/blog/add-git-commit-date-as-last-update-date-in-hugo-page/
+enableGitInfo = true
 
 
 ############################## navigation ###############################
