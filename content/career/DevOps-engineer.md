@@ -51,9 +51,9 @@ Wij hechten veel waarde aan certificaten omdat ze een goed beeld geven van ieman
 * Bedrijfsauto
 * Bedrijfstelefoon
 * Budget voor professionele ontwikkeling
-* Soort dienstverband: Fulltime, Bepaalde tijd
+* Soort dienstverband: Fulltime
 
-Salaris: €5.000,00 per maand
+Voor een technische ICT professional is de salarisindicatie €70.000 bruto per jaar. Dit komt door hun deskundigheid en zeer specifieke kennis. Het salaris voor minder gespecialiseerde functies en startersfuncties ligt een stuk lager.
 
 ##### Over Kroescontrol
 
