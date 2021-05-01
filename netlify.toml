@@ -12,11 +12,9 @@ command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
 
 [context.branch-deploy]
 command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
+
+[context.branch-deploy.environment]
 HUGO_ENV = "nonprod"
-
-#[context.branch-deploy.environment]
-#HUGO_VERSION = "0.36"
-
 
 [[redirects]]
   from = "/service"
