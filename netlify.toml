@@ -6,6 +6,19 @@ command = "hugo --enableGitInfo --gc --minify"
 HUGO_VERSION = "0.68.3"
 HUGO_ENABLEGITINFO = "true"
 
+[context.production.environment]
+HUGO_ENV = "production"
+
+[context.deploy-preview]
+command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
+
+[context.branch-deploy]
+command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
+
+#[context.branch-deploy.environment]
+#HUGO_VERSION = "0.36"
+
+
 [[redirects]]
   from = "/service"
   to = "/expertise"
