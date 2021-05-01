@@ -9,3 +9,6 @@ Disallow: /themes/
 Disallow: /static/
 
 Sitemap: {{ "sitemap.xml" | absLangURL }}
+test: {{ "blog/" | absLangURL }}
+
+Sitemap: http://befound.pt/sitemap.xml
