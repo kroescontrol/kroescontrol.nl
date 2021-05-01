@@ -1,9 +1,9 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "hugo --enableGitInfo --gc --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.74.3"
+HUGO_VERSION = "0.68.3"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
