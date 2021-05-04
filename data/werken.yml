@@ -65,7 +65,7 @@ showstagecareer:
 service2:
   enable : false
   title : "Vacatures"
-  content : "Bekijk hier onze vacatures. Staat jouw droombaan er niet tussen? Stuur gerust een open sollicitatie naar info@kroescontrol.nl"
+  content : "Bekijk hier onze vacatures. Staat jouw droombaan er niet tussen? Stuur gerust een open sollicitatie naar serge@kroescontrol.nl"
   serviceItem:
     # service item loop
     - title : "Vacature Linux Engineer"

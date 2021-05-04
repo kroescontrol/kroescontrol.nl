@@ -41,7 +41,7 @@ branch:
       info:
         - label : "Algemene vragen of opmerkingen"
           icon : "ti-user"
-        - label : "info@kroescontrol.nl"
+        - label : "serge@kroescontrol.nl"
           icon : "ti-email"
         - label : "Vragen over tarieven en bestellingen"
           icon : "ti-user"
