@@ -14,7 +14,7 @@ command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
 command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
 
 [context.dev]
-command = "hugo -b https://dev.kroescontrol.nl --enableGitInfo --gc --minify"
+command = "hugo -b https://dev.kroescontrol.nl --enableGitInfo --gc --minify && echo -e 'User-agent: *\nDisallow: /' >> public/robots.txt"
 
 [context.daniel]
 command = "hugo -b https://daniel.kroescontrol.nl --enableGitInfo --gc --minify"
