@@ -8,16 +8,16 @@ HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
+command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify  && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"
 
 [context.branch-deploy]
-command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
+command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify  && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"
 
 [context.dev]
-command = "hugo -b https://dev.kroescontrol.nl --enableGitInfo --gc --minify && echo -e 'User-agent: *\nDisallow: /' >> public/robots.txt"
+command = "hugo -b https://dev.kroescontrol.nl --enableGitInfo --gc --minify && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"
 
 [context.daniel]
-command = "hugo -b https://daniel.kroescontrol.nl --enableGitInfo --gc --minify"
+command = "hugo -b https://daniel.kroescontrol.nl --enableGitInfo --gc --minify  && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"
 
 [context.branch-deploy.environment]
 HUGO_ENV = "nonprod"
