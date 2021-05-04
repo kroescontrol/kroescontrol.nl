@@ -14,7 +14,10 @@ command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
 command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify"
 
 [context.dev]
-command = "hugo -b dev.kroescontrol.nl --enableGitInfo --gc --minify"
+command = "hugo -b https://dev.kroescontrol.nl --enableGitInfo --gc --minify"
+
+[context.daniel]
+command = "hugo -b https://daniel.kroescontrol.nl --enableGitInfo --gc --minify"
 
 [context.branch-deploy.environment]
 HUGO_ENV = "nonprod"
