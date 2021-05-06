@@ -1,6 +1,6 @@
 ################################### contact form #########################
 contact:
-  enable: true
+  enable: false
   form_action: https://formspree.io/xvoblnaa
   subtitle : "Stuur ons een bericht"
   title : "Contact Formulier"
