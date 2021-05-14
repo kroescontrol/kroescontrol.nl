@@ -1,6 +1,5 @@
 ---
 title: "Linux engineer"
-date: 2020-08-19T11:51:57+00:00
 # meta description
 description : "Op zoek naar een nieuwe IT baan? Bekijk de vacature Linux engineer van Kroescontrol. Bekijk welke vacatures er open staan en solliciteer direct!"
 # company logo

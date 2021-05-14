@@ -17,8 +17,8 @@
                   <span class="text-muted text-capitalize mr-3"><i
                       class="ti-pencil-alt mr-2"></i>{{ . | humanize }}</span>
                   {{ end }}
-                  <span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i>
-                    {{ .GitInfo.AuthorDate.Format "02 Jan 2006" }}</span>
+                  <!--<span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i>
+                    {{ .GitInfo.AuthorDate.Format "02 Jan 2006" }}</span>-->
                 </div>
                 <div class="content">
                   {{ .Content }}
@@ -30,12 +30,12 @@
                     {{ end }}
                   </ul>
 
-                  <ul class="float-right list-inline">
+                  <!--<ul class="float-right list-inline">
                     <li class="list-inline-item">Share: </li>
                     {{ range .Site.Params.postShare }}
                     <li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
                     {{ end }}
-                  </ul>
+                  </ul>-->
                 </div>
               </div>
             </div>
