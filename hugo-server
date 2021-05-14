@@ -1,2 +1,2 @@
 #!/bin/bash -xe
-hugo server --enableGitInfo
+hugo server --enableGitInfo --disableFastRender
