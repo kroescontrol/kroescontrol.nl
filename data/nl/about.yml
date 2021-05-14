@@ -1,6 +1,6 @@
 ################################## Gallery ######################################
 gallery:
-  enable : false
+  enable : true
   title : "Our Featured Gallery"
   gallery_item:
     # gallery item loop
