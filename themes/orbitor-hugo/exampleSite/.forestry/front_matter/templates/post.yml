@@ -1,0 +1,29 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: file
+  name: page_header_bg
+  label: page_header_bg
+- type: file
+  name: image
+  label: image
+- type: list
+  name: categories
+  label: categories
+  config:
+    use_select: false
+    source:
+      type: pages
+- type: list
+  name: tags
+  label: tags

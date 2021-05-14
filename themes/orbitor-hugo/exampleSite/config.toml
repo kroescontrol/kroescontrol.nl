@@ -1,0 +1,180 @@
+######################## default configuration ####################
+baseurl = "http://demo.themefisher.com/orbitor-hugo/"
+languageCode = "en-us"
+title = "Orbitor Hugo - Software Company Template"
+theme = "orbitor-hugo"
+themesDir = "../.."
+summaryLength = "10"
+paginate = 4
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# disqus short name
+disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+
+[outputs]
+home = ["HTML", "JSON"]
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify/css/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Rubik&display=swap"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+
+  
+############################## navigation ###############################
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 2
+
+[[menu.main]]
+name = "Portfolio"
+url = "portfolio"
+weight = 3
+
+[[menu.main]]
+weight = 4
+name = "Pages"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Blog"
+  url = "blog"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Service"
+  url = "service"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Pricing"
+  url = "pricing"
+  
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 5
+
+# footer menu 1
+[[menu.company]]
+name = "About"
+url = "about"
+weight = 2
+
+[[menu.company]]
+name = "Portfolio"
+url = "portfolio"
+weight = 3
+
+[[menu.company]]
+name = "Service"
+url = "service"
+weight = 4
+
+[[menu.company]]
+name = "Blog"
+url = "blog"
+weight = 5
+
+[[menu.company]]
+name = "Contact"
+url = "contact"
+weight = 6
+
+# footer menu 2
+[[menu.support]]
+name = "About"
+url = "about"
+weight = 1
+
+[[menu.support]]
+name = "Portfolio"
+url = "portfolio"
+weight = 2
+
+[[menu.support]]
+name = "Service"
+url = "service"
+weight = 3
+
+[[menu.support]]
+name = "Blog"
+url = "blog"
+weight = 4
+
+[[menu.support]]
+name = "Contact"
+url = "contact"
+weight = 5
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+logo_white = "images/logo-w.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact info
+mobile = "+23-345-67890"
+email = "support@gmail.com"
+location = "North Main Street,Brooklyn Australia"
+footer_content = "Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus."
+# copyright
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = true
+label = "Get an estimate"
+link = "contact"
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+################################# Social icon #######################
+[[params.social]]
+icon = "ti-facebook"
+link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "#"
+
+[[params.social]]
+icon = "ti-github"
+link = "#"
