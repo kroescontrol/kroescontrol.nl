@@ -14,7 +14,7 @@ command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify  && echo -e '
 command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify  && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"
 
 [context.dev]
-command = "hugo -b https://dev.kroescontrol.nl --enableGitInfo --gc --minify && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"
+command = "hugo --buildDrafts -b https://dev--trusting-kirch-c95cf8.netlify.app --enableGitInfo --gc --minify && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"
 
 [context.daniel]
 command = "hugo -b https://daniel.kroescontrol.nl --enableGitInfo --gc --minify  && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"

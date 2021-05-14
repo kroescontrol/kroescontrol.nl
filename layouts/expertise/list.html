@@ -1,0 +1,288 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="section blog-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="row">
+          {{ $paginator := .Paginate .Data.Pages }}
+          {{ range $paginator.Pages }}
+          <div class="col-lg-12 col-md-12 mb-5">
+            <div class="blog-item">
+              <div class="blog-thumb">
+                <!-- <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded"> -->
+              </div>
+              <div class="blog-item-content">
+                <h3 class="mt-3 mb-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <!-- <div class="blog-item-meta mb-3">
+                  <span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i> {{ .PublishDate.Format "02 Jan 2006" }}</span>
+                </div>-->
+                <p class="mb-4">{{ .Description }}</p>
+                <a href="{{ .Permalink }}" class="btn btn-small btn-main ">Bekijk vacature</a>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-lg-8">
+        
+        {{ $paginator := .Paginator }}
+        <!-- Number of links either side of the current page. -->
+        {{ $adjacent_links := 2 }}
+        <!-- $max_links = ($adjacent_links * 2) + 1 -->
+        {{ $max_links := (add (mul $adjacent_links 2) 1) }}
+        <!-- $lower_limit = $adjacent_links + 1 -->
+        {{ $lower_limit := (add $adjacent_links 1) }}
+        <!-- $upper_limit = $paginator.TotalPages - $adjacent_links -->
+        {{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
+        <!-- If there's more than one page. -->
+        {{ if gt $paginator.TotalPages 1 }}
+        <nav aria-label="Page navigation">
+          <ul class="pagination">
+            <!-- First page. -->
+            {{ if ne $paginator.PageNumber 1 }}
+            <li class="page-item">
+              <a class="page-link hover-ripple" href="{{ $paginator.First.URL }}">
+                ««
+              </a>
+            </li>
+            {{ end }}
+            <!-- Previous page. -->
+            {{ if $paginator.HasPrev }}
+            <li class="page-item">
+              <a href="{{ $paginator.Prev.URL }}" class="page-link hover-ripple">
+                «
+              </a>
+            </li>
+            {{ end }}
+            <!-- Page numbers. -->
+            {{ range $paginator.Pagers }}
+            {{ $.Scratch.Set "page_number_flag" false }}
+            <!-- Advanced page numbers. -->
+            {{ if gt $paginator.TotalPages $max_links }}
+            <!-- Lower limit pages. -->
+            <!-- If the user is on a page which is in the lower limit.  -->
+            {{ if le $paginator.PageNumber $lower_limit }}
+            <!-- If the current loop page is less than max_links. -->
+            {{ if le .PageNumber $max_links }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            <!-- Upper limit pages. -->
+            <!-- If the user is on a page which is in the upper limit. -->
+            {{ else if ge $paginator.PageNumber $upper_limit }}
+            <!-- If the current loop page is greater than total pages minus $max_links -->
+            {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            <!-- Middle pages. -->
+            {{ else }}
+            {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            {{ end }}
+            <!-- Simple page numbers. -->
+            {{ else }}
+            {{ $.Scratch.Set "page_number_flag" true }}
+            {{ end }}
+            <!-- Output page numbers. -->
+            {{ if eq ($.Scratch.Get "page_number_flag") true }}
+            <li class="page-item{{ if eq . $paginator }} page-item active {{ end }}">
+              <a href="{{ .URL }}" class="page-link hover-ripple">
+                {{ .PageNumber }}
+              </a>
+            </li>
+            {{ end }}
+            {{ end }}
+            <!-- Next page. -->
+            {{ if $paginator.HasNext }}
+            <li class="page-item">
+              <a href="{{ $paginator.Next.URL }}" class="page-link hover-ripple">
+                »
+              </a>
+            </li>
+            {{ end }}
+            <!-- Last page. -->
+            {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+            <li class="page-item">
+              <a class="page-link hover-ripple" href="{{ $paginator.Last.URL }}">
+                »»
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </nav>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- case study -->
+{{ if .Site.Data.expertise.casestudy.enable }}
+{{ with .Site.Data.expertise.casestudy }}
+<section class="section case-study">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="case-study-content text-center mb-5">
+          <h2 class="mb-4">{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+
+    {{ range $index, $element := .case }}
+    {{if (modBool $index 2)}}
+    <div class="case-timeline">
+      <div class="case-timeline-divider"></div>
+      <div class="case-timeline-dot"></div>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="case-img">
+            <img src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="case-content">
+            <h4 class="mb-3">{{ .title | markdownify }}</h4>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ else }}
+    <div class="case-timeline">
+      <div class="case-timeline-divider"></div>
+      <div class="case-timeline-dot"></div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <div class="case-content">
+            <h4 class="mb-3">{{ .title | markdownify }}</h4>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+        <div class="col-lg-6  order-1 order-lg-2">
+          <div class="case-img">
+            <img src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /case study -->
+
+<!-- service style 2 -->
+{{ if .Site.Data.expertise.service2.enable }}
+{{ with .Site.Data.expertise.service2 }}
+<section class="section service">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <div class="heading">
+          <h2 class="mb-4">{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      {{ range .serviceItem }}
+      <div class="col-lg-4 col-md-6">
+        <div class="service-item-list">
+          <i class="{{ .icon }}"></i>
+          <p>{{ .title | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /service style 2 -->
+
+<!-- service style 1 -->
+{{ if .Site.Data.expertise.service1.enable }}
+{{ with .Site.Data.expertise.service1 }}
+<section class="section service-2">
+  <div class="container">
+    {{ $.Scratch.Set "counter" 0 }}
+    {{ range $index, $element := .serviceItem }}
+    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+    {{if (modBool $index 2)}}
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="service-img mb-5 mb-lg-0">
+          <img src="{{ .image | absURL }}" alt="{{.title | markdownify }}" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="service-info ">
+          <span class="text-color font-weight-bold">{{if lt $index 9}}0{{end}}{{$.Scratch.Get `counter`}}</span>
+          <h3 class="text-md mb-4 mt-2">{{.title | markdownify }}</h3>
+          <div class="content">{{ .content | markdownify }}</div>
+        </div>
+      </div>
+    </div>
+    {{ else }}
+    <div class="content-padding position-relative">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="service-info mb-5 mb-lg-0">
+            <span class="text-color font-weight-bold">{{if lt $index 9}}0{{end}}{{$.Scratch.Get `counter`}}</span>
+            <h3 class="text-md mb-4 mt-2">{{ .title | markdownify }}</h3>
+            <div class="content">{{ .content | markdownify }}</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="service-img">
+            <img src="{{ .image | absURL }}" alt="{{.title | markdownify }}" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /service style 1 -->
+
+<!-- call to action -->
+{{ if .Site.Data.expertise.cta.enable }}
+{{ with .Site.Data.expertise.cta }}
+<section class="cta-2 bg-light">
+  <div class="container">
+    <div class="cta-block py-5">
+      <div class="row align-items-center ">
+        <div class="col-lg-8">
+          <span class="text-color">{{ .subtitle | markdownify }}</span>
+          <h2 class="mt-2 mb-4 mb-lg-0">{{ .title | markdownify }}</h2>
+        </div>
+        {{ if .button.enable }}
+        <div class="col-lg-4">
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-main btn-round-full float-lg-right">{{ .label }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /call to action -->
+
+{{ end }}
