@@ -29,14 +29,14 @@ team:
 
   Een goed systeem onderhoudt immers zichzelf en versterkt de krachten van engineers en eindgebruikers.
 
-  Bij Kroescontrol staan de passie voor techniek en plezier voorop, dat kan ook vanwege onze informele werksfeer. Dit blijkt onder andere uit de 80/20 regel, die houdt in dat iedereen 20% van zijn tijd mag gebruiken om de andere 80% leuker te maken. Momenteel zijn wij in die 20% bijvoorbeeld druk bezig met onze passie voor domotica & Tesla’s."
+  Bij Kroescontrol staan de passie voor techniek en plezier voorop, dat kan ook vanwege onze informele werksfeer. Dit blijkt onder andere uit de 90/10 regel, die houdt in dat iedereen 10% van zijn tijd mag gebruiken om de andere 90% leuker te maken. Momenteel zijn wij in die 10% bijvoorbeeld druk bezig met onze passie voor domotica & Tesla’s."
   
   teamMember:
     # team member loop
     - name : "Serge Kroes"
       image : "images/team/serge.jpg"
       designation : "Senior DevOps Engineer & Trainer"
-      
+
     # team member loop
     - name : "Pim Jeursen"
       image : "images/team/pim.jpg"
