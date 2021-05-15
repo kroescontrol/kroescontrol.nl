@@ -1,74 +1,74 @@
 - id: apply_now
-  translation: Apply Now
-
+  translation: Solliciteer nu
+  
 - id: job_details
-  translation: Job Details
+  translation: Vacaturedetails
 
 - id: location
-  translation: Location
+  translation: Locatie
 
 - id: job_category
-  translation: Job Category
+  translation: Categorie
 
 - id: job_type
-  translation: Job Type
+  translation: Functie
 
 - id: posted_date
-  translation: Posted Date
+  translation: Datum
 
 - id: featured_jobs
-  translation: Featured Jobs
+  translation: Uitgelichte vacatures
 
 - id: categories
-  translation: Categories
+  translation: Categorieën
 
 - id: latest_article
-  translation: Latest Article
+  translation: Recent artikel
 
 - id: tags
   translation: Tags
 
 - id: read_more
-  translation: Read more
+  translation: Lees meer
 
 - id: posted_by
-  translation: Posted By
+  translation: Gepost door
 
 - id: keep_in_touch
-  translation: Keep in Touch
+  translation: Blijf in contact
 
 - id: address
-  translation: Address
+  translation: Adres
 
 - id: email
   translation: Email
 
 - id: mobile
-  translation: Mobile
+  translation: Mobiel
 
 - id: client_slider_title
-  translation: We work with
+  translation: Onze klanten
 
 - id: about_us
-  translation: About RedLab
+  translation: Over Kroescontrol
 
 - id: our_company
-  translation: Our Company
+  translation: Kroescontrol
 
 - id: contact_us
-  translation: Contact Us
+  translation: Kom in contact
 
 - id: connect_with_us
-  translation: Connect With Us
+  translation: Social media
 
 - id: search_placeholder
-  translation: Type & Hit Enter...
+  translation: Zoeken
 
 - id: our_works
-  translation: Our Works
+  translation: Vacatures
 
 - id: know_more
-  translation: Know More
+  translation: Meer weten
 
 - id: create_project
-  translation: Want To Create Project Like This?
+  translation: Wil jij projecten als deze helpen verwezenlijken?
