@@ -178,7 +178,7 @@ expireDay = 7
 # Google Analitycs
 googleAnalitycsID = "UA-163824714-1"
 # copyright
-copyright = "&copy; Copyright Kroescontrol 2020"
+copyright = "&copy; Copyright Kroescontrol 2021"
   # Preloader
   [params.preloader]
   enable = false
@@ -200,7 +200,7 @@ copyright = "&copy; Copyright Kroescontrol 2020"
   [params.contact]
   mobile = "+31634116494"
   email = "info@kroescontrol.nl"
-  location = "Zonnehorst 5, 7207BT Zutphen"
+  location = ""
 
 ################################# Social icon #######################
 [[params.postShare]]
