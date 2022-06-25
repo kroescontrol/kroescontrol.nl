@@ -18,7 +18,10 @@
                       class="ti-pencil-alt mr-2"></i>{{ . | humanize }}</span>
                   {{ end }}
                   <span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i>
-                    {{ .GitInfo.AuthorDate.Format "02 Jan 2006" }}</span>
+		{{ with .GitInfo }}
+		{{ with .GitInfo.AuthorDate }} {{ .GitInfo.AuthorDate.Format "02 Jan 2006" }}
+		{{ end }}
+		{{ end }} </span>
                 </div>
                 <div class="content">
                   {{ .Content }}
