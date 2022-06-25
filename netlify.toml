@@ -3,7 +3,6 @@ publish = "public"
 command = "hugo --enableGitInfo --gc --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.68.3"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "production"
 
@@ -15,9 +14,6 @@ command = "hugo -b $DEPLOY_PRIME_URL --enableGitInfo --gc --minify  && echo -e '
 
 [context.dev]
 command = "hugo --buildDrafts -b https://dev--trusting-kirch-c95cf8.netlify.app --enableGitInfo --gc --minify && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"
-
-[context.daniel]
-command = "hugo -b https://daniel.kroescontrol.nl --enableGitInfo --gc --minify  && echo -e 'User-agent: *\nDisallow: /' > public/robots.txt"
 
 [context.branch-deploy.environment]
 HUGO_ENV = "nonprod"
