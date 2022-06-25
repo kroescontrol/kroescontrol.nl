@@ -1,0 +1,116 @@
+baseurl: 'https://kroescontrol.nl/'
+title: Kroescontrol | IT & More
+theme: orbitor-hugo
+paginate: '6'
+summaryLength: '10'
+disqusShortname: kroescontrol
+enableRobotsTXT: true
+outputs:
+  home:
+    - HTML
+    - AMP
+    - RSS
+    - JSON
+params:
+  plugins:
+    css:
+      - URL: plugins/bootstrap/css/bootstrap.min.css
+      - URL: plugins/themify/css/themify-icons.css
+      - URL: plugins/magnific-popup/dist/magnific-popup.css
+      - URL: plugins/modal-video/modal-video.css
+      - URL: plugins/animate-css/animate.css
+      - URL: plugins/slick-carousel/slick/slick.css
+      - URL: plugins/slick-carousel/slick/slick-theme.css
+    js:
+      - URL: plugins/jQuery/jquery.min.js
+      - URL: plugins/bootstrap/js/popper.js
+      - URL: plugins/bootstrap/js/bootstrap.min.js
+      - URL: plugins/magnific-popup/dist/jquery.magnific-popup.min.js
+      - URL: plugins/slick-carousel/slick/slick.min.js
+      - URL: plugins/counterup/jquery.waypoints.min.js
+      - URL: plugins/counterup/jquery.counterup.min.js
+      - URL: plugins/modal-video/modal-video.js
+      - URL: plugins/search/fuse.min.js
+      - URL: plugins/search/mark.js
+      - URL: plugins/search/search.js
+      - URL: plugins/google-map/map.js
+      - URL: >-
+          https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js
+        enableGitInfo: true
+  logo: images/logo.png
+  logoAlt: images/logo-w.png
+  home: Home
+  description: Kroescontrol | IT & More
+  author: Kroescontrol
+  cookie: true
+  expireDay: 7
+  googleAnalitycsID: UA-163824714-1
+  copyright: '&copy; Copyright Kroescontrol 2021'
+  preloader:
+    enable: false
+  navBtn:
+    enable: false
+    label: Get an estimate
+    link: contact
+  footer:
+    about:
+      title: Kroescontrol
+      content: 'Pixels, passie & plezier. Kroescontrol in 3 woorden!'
+  contact:
+    mobile: '+31634116494'
+    email: info@kroescontrol.nl
+    location: ''
+  postShare:
+    - icon: ti-linkedin
+      link: 'https://www.linkedin.com/company/kroescontrol'
+    - icon: ti-facebook
+      link: '#'
+    - icon: ti-twitter-alt
+      link: '#'
+    - icon: ti-linkedin
+      link: '#'
+  social:
+    - icon: ti-linkedin
+      name: LinkedIn
+      link: 'https://www.linkedin.com/company/kroescontrol'
+menu:
+  main:
+    - name: Onze Expertise
+      URL: expertise
+      weight: 2
+    - name: Het verhaal
+      URL: hetverhaal
+      weight: 3
+    - name: Werken Bij
+      URL: werken
+      weight: 4
+    - name: Contact
+      URL: contact
+      weight: 5
+  footer1:
+    - name: Onze Expertise
+      URL: expertise
+      weight: 1
+    - name: Het verhaal
+      URL: hetverhaal
+      weight: 3
+    - name: Werken bij
+      URL: werken
+      weight: 4
+    - name: Vacatures
+      URL: career
+      weight: 8
+  footer2:
+    - name: Contact
+      URL: contact
+      weight: 6
+    - name: Algemene Voorwaarden
+      URL: voorwaarden/algemene-voorwaarden
+      weight: 7
+    - name: Privacybeleid
+      URL: voorwaarden/privacybeleid
+      weight: 8
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
