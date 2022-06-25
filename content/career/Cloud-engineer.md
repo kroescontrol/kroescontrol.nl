@@ -1,6 +1,5 @@
 ---
 title: "Cloud engineer"
-date: 2020-08-19T11:51:57+00:00
 # page title background image
 image: "images/backgrounds/about2.jpg"
 # meta description
@@ -62,3 +61,4 @@ Voor een technische ICT professional is de salarisindicatie €70.000 bruto per 
 Kroescontrol is een ambitieus bedrijf met een enthousiaste en informele werksfeer. Binnen ons werk staan de passie voor techniek & plezier voorop, door onze informele sfeer kan dat ook. Wij hebben de 90/10 regel die ervoor staat dat iedereen 10% van zijn/haar werktijd mag gebruiken om dingen te ondernemen die de andere 90% leuker maken. Kom jij ons versterken? Reken dan op een team dat zowel voor onze klanten als jou klaarstaat. In onze vrije tijd zijn we graag met Tesla's, domotica en techniek in het algemeen bezig.
 
 Herken jij je in onze werksfeer en wil jij aan je eigen toekomst werken in een leuke omgeving? Neem contact op via serge@kroescontrol.nl of bel met +31 6 3411 6494!
+ 
