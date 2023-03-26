@@ -63,7 +63,7 @@ showstagecareer:
 
 ############################### Service style 2 #########################
 service2:
-  enable : false
+  enable : true
   title : "Vacatures"
   content : "Bekijk hier onze vacatures. Staat jouw droombaan er niet tussen? Stuur gerust een open sollicitatie naar serge@kroescontrol.nl"
   serviceItem:
@@ -83,7 +83,7 @@ service2:
       
 ############################### call to action ###############################
 cta:
-  enable: true
+  enable: false
   subtitle : "Staat er geen vacature tussen voor jou, maar wil je wel bij ons werken?"
   title : "Open sollicitatie"
   button:

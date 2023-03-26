@@ -76,13 +76,13 @@ params:
 menu:
   footer2:
     - name: Contact
-      URL: contact
+      URL: https://kroescontrol.nl/contact
       weight: 6
     - name: Algemene Voorwaarden
-      URL: voorwaarden/algemene-voorwaarden
+      URL: https://kroescontrol.nl/voorwaarden/algemene-voorwaarden
       weight: 7
     - name: Privacybeleid
-      URL: voorwaarden/privacybeleid
+      URL: https://kroescontrol.nl/voorwaarden/privacybeleid
       weight: 8
 sitemap:
   changefreq: monthly
