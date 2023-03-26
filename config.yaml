@@ -45,7 +45,7 @@ params:
   cookie: true
   expireDay: 7
   googleAnalitycsID: UA-163824714-1
-  copyright: '&copy; Copyright Kroescontrol 2021'
+  copyright: '&copy; Copyright Kroescontrol 2023'
   preloader:
     enable: false
   navBtn:
