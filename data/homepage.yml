@@ -1,6 +1,6 @@
 ####################### Banner ##########################################
 banner:
-  enable: true
+  enable: false
   bgImage : "images/bg/homepage.png"
   subtitle : "De kracht van automatiseren"
   title : "DevOps autopilot"
@@ -36,7 +36,7 @@ feature:
   enable : true
   subtitle : "Waarom Kroescontrol?"
   title : "Wij versnellen de DevOps mentaliteit"
-  content : "DevOps is tegenwoordig een veel gebruikte term, maar wat betekent het precies? Kroescontrol kan u helpen met het vinden van de juiste DevOps methodieken voor uw organisatie."
+  content : "Als jij geïnteresseerd bent in het werken met de nieuwste technologieën en het werken in een innovatieve omgeving, nodigen we je van harte uit om bij ons te solliciteren. Onze gepassioneerde en deskundige teams staan klaar om jou te helpen bij het ontwikkelen van je vaardigheden en kennis."
   featureItem:
     # feature item loop
     - icon : "ti-check-box" # here we use themify icon pack : https://themify.me/themify-icons
@@ -65,8 +65,8 @@ cta:
   content : "Wij helpen uw organisatie vandaag nog om te versnellen. Neem vrijblijvend contact op om de mogelijkheden te bespreken!"
   button:
     enable: true
-    label : "Contact"
-    link : "contact"
+    label : "Vacatures"
+    link : "https://werkenbij.kroescontrol.nl/werken/"
 
 ################################### portfolio ####################################
 project:
