@@ -1,4 +1,4 @@
-baseurl: 'https://kroescontrol.nl/'
+baseurl: 'https://werkenbij.kroescontrol.nl/'
 title: Kroescontrol | IT & More
 theme: orbitor-hugo
 paginate: '6'
@@ -74,32 +74,6 @@ params:
       name: LinkedIn
       link: 'https://www.linkedin.com/company/kroescontrol'
 menu:
-  main:
-    - name: Onze Expertise
-      URL: expertise
-      weight: 2
-    - name: Het verhaal
-      URL: hetverhaal
-      weight: 3
-    - name: Werken Bij
-      URL: werken
-      weight: 4
-    - name: Contact
-      URL: contact
-      weight: 5
-  footer1:
-    - name: Onze Expertise
-      URL: expertise
-      weight: 1
-    - name: Het verhaal
-      URL: hetverhaal
-      weight: 3
-    - name: Werken bij
-      URL: werken
-      weight: 4
-    - name: Vacatures
-      URL: career
-      weight: 8
   footer2:
     - name: Contact
       URL: contact
