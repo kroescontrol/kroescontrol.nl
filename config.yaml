@@ -39,7 +39,7 @@ params:
         enableGitInfo: true
   logo: images/logo.png
   logoAlt: images/logo-w.png
-  home: Home
+  home: ''
   description: Kroescontrol | IT & More
   author: Kroescontrol
   cookie: true
